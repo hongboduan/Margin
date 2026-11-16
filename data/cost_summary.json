@@ -1,0 +1,279 @@
+{
+ "LIBERO-90": {
+  "campaign": {
+   "cache_read": 715525217,
+   "cache_write": 174600274,
+   "input": 13568,
+   "minutes": 0.0,
+   "output": 5385339,
+   "sessions": 183,
+   "tokens": 895524398,
+   "turns": 5783,
+   "usd": 1123.8674654000001
+  },
+  "campaign_roles": {
+   "coordinator": {
+    "cache_read": 384219883,
+    "cache_write": 96834128,
+    "input": 3616,
+    "minutes": 0.0,
+    "output": 774775,
+    "sessions": 1,
+    "turns": 972,
+    "usd": 576.5245806
+   },
+   "evolutionary search": {
+    "cache_read": 7760610,
+    "cache_write": 2512167,
+    "input": 242,
+    "minutes": 0.0,
+    "output": 91394,
+    "sessions": 3,
+    "turns": 122,
+    "usd": 15.941805000000002
+   },
+   "verifier": {
+    "cache_read": 86835664,
+    "cache_write": 12356186,
+    "input": 3160,
+    "minutes": 0.0,
+    "output": 1145573,
+    "sessions": 87,
+    "turns": 1497,
+    "usd": 102.07216280000003
+   },
+   "worker": {
+    "cache_read": 236709060,
+    "cache_write": 62897793,
+    "input": 6550,
+    "minutes": 0.0,
+    "output": 3373597,
+    "sessions": 92,
+    "turns": 3192,
+    "usd": 429.3289169999999
+   }
+  },
+  "campaign_sim": {
+   "episodes": 12225,
+   "sim_h": 162.2428572222221
+  },
+  "campaign_tasks": 90,
+  "critic": {
+   "cache_read": 67272,
+   "cache_write": 163473,
+   "input": 68,
+   "minutes": 5.183566666666667,
+   "output": 17198,
+   "sessions": 11,
+   "tokens": 248011,
+   "turns": 61,
+   "usd": 1.1750513999999999
+  },
+  "dev_sim": {
+   "episodes": 1426,
+   "sim_h": 69.82208055555554
+  },
+  "final_sim": {
+   "episodes": 3750,
+   "sim_h": 134.11658388888895
+  },
+  "probes_sim": {
+   "episodes": 1500,
+   "sim_h": 105.12062027777775
+  },
+  "repair_r1": {
+   "cache_read": 30757166,
+   "cache_write": 7355596,
+   "dev_episodes": 425,
+   "input": 1000,
+   "minutes": 782.6091999999999,
+   "output": 412426,
+   "sessions": 14,
+   "tokens": 38526188,
+   "turns": 506,
+   "usd": 51.18193320000001
+  },
+  "repair_r1_sim": {
+   "episodes": 1050,
+   "sim_h": 86.0330847222222
+  },
+  "repair_r2": {
+   "cache_read": 71065060,
+   "cache_write": 13076435,
+   "dev_episodes": 994,
+   "input": 2282,
+   "minutes": 1424.5113166666663,
+   "output": 1005410,
+   "sessions": 36,
+   "tokens": 85149187,
+   "turns": 1143,
+   "usd": 99.71251500000002
+  },
+  "repair_r2_sim": {
+   "episodes": 0,
+   "sim_h": 0.0
+  }
+ },
+ "LIBERO-Pro": {
+  "critic": {
+   "cache_read": 6887665,
+   "cache_write": 9451885,
+   "input": 5444,
+   "minutes": 351.25446666666664,
+   "output": 1172249,
+   "sessions": 1044,
+   "tokens": 17517243,
+   "turns": 3031,
+   "usd": 72.10371399999994
+  },
+  "dev_sim": {
+   "episodes": 2146,
+   "sim_h": 76.0642466666667
+  },
+  "final_sim": {
+   "episodes": 5550,
+   "sim_h": 138.04066250000022
+  },
+  "probes_sim": {
+   "episodes": 2220,
+   "sim_h": 60.519000277777636
+  },
+  "repair_r1": {
+   "cache_read": 48766252,
+   "cache_write": 8848581,
+   "dev_episodes": 898,
+   "input": 1702,
+   "minutes": 971.0999666666665,
+   "output": 709239,
+   "sessions": 30,
+   "tokens": 58325774,
+   "turns": 847,
+   "usd": 68.18774339999999
+  },
+  "repair_r1_sim": {
+   "episodes": 2250,
+   "sim_h": 59.60810750000006
+  },
+  "repair_r2": {
+   "cache_read": 80376862,
+   "cache_write": 11478566,
+   "dev_episodes": 1243,
+   "input": 8388,
+   "minutes": 1490.14595,
+   "output": 1098673,
+   "sessions": 44,
+   "tokens": 92962489,
+   "turns": 1323,
+   "usd": 95.47521440000001
+  },
+  "repair_r2_sim": {
+   "episodes": 0,
+   "sim_h": 0.0
+  }
+ },
+ "Robosuite": {
+  "campaign": {
+   "cache_read": 71716993,
+   "cache_write": 16405187,
+   "input": 1801,
+   "minutes": 0.0,
+   "output": 698892,
+   "sessions": 14,
+   "tokens": 88822873,
+   "turns": 679,
+   "usd": 110.35437760000002
+  },
+  "campaign_roles": {
+   "coordinator": {
+    "cache_read": 21911793,
+    "cache_write": 5078754,
+    "input": 739,
+    "minutes": 0.0,
+    "output": 96435,
+    "sessions": 1,
+    "turns": 162,
+    "usd": 31.707784600000004
+   },
+   "verifier": {
+    "cache_read": 6619062,
+    "cache_write": 841598,
+    "input": 238,
+    "minutes": 0.0,
+    "output": 102772,
+    "sessions": 6,
+    "turns": 113,
+    "usd": 7.588194400000001
+   },
+   "worker": {
+    "cache_read": 43186138,
+    "cache_write": 10484835,
+    "input": 824,
+    "minutes": 0.0,
+    "output": 499685,
+    "sessions": 7,
+    "turns": 404,
+    "usd": 71.0583986
+   }
+  },
+  "campaign_sim": {
+   "episodes": 1710,
+   "sim_h": 28.916488333333362
+  },
+  "campaign_tasks": 7,
+  "critic": {
+   "cache_read": 35272,
+   "cache_write": 71455,
+   "input": 36,
+   "minutes": 2.1533333333333333,
+   "output": 7546,
+   "sessions": 6,
+   "tokens": 114309,
+   "turns": 24,
+   "usd": 0.5153934
+  },
+  "dev_sim": {
+   "episodes": 330,
+   "sim_h": 19.41718361111111
+  },
+  "final_sim": {
+   "episodes": 1200,
+   "sim_h": 59.61058500000001
+  },
+  "probes_sim": {
+   "episodes": 241,
+   "sim_h": 8.975045555555552
+  },
+  "repair_r1": {
+   "cache_read": 8346882,
+   "cache_write": 2104123,
+   "dev_episodes": 177,
+   "input": 280,
+   "minutes": 387.7437,
+   "output": 130711,
+   "sessions": 4,
+   "tokens": 10581996,
+   "turns": 142,
+   "usd": 14.8053314
+  },
+  "repair_r1_sim": {
+   "episodes": 601,
+   "sim_h": 36.90357583333335
+  },
+  "repair_r2": {
+   "cache_read": 5377543,
+   "cache_write": 1184273,
+   "dev_episodes": 153,
+   "input": 218,
+   "minutes": 226.78753333333333,
+   "output": 73137,
+   "sessions": 4,
+   "tokens": 6635171,
+   "turns": 114,
+   "usd": 8.460485600000002
+  },
+  "repair_r2_sim": {
+   "episodes": 0,
+   "sim_h": 0.0
+  }
+ }
+}

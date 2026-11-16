@@ -1,0 +1,108 @@
+{
+ "ci": [
+  0.9771159869598288,
+  0.9854595894159742
+ ],
+ "consistency_issues": [],
+ "episodes": 4000,
+ "failures": 73,
+ "passes": 3927,
+ "rate": 0.98175,
+ "retained_rerun_variant": {
+  "note": "rerun kept after seeing held-out; NOT a clean estimate",
+  "passes": 3932,
+  "rate": 0.983
+ },
+ "skill_verification": {
+  "reports": 75,
+  "verdicts": {
+   "refuted": 3,
+   "verified": 72
+  },
+  "verification_dirs": 76
+ },
+ "suites": [
+  {
+   "ci_hi": 0.9559807909760214,
+   "ci_lo": 0.9133402866750973,
+   "n": 500,
+   "pass": 469,
+   "rate": 0.938,
+   "suite": "libero_10_swap",
+   "tasks": 10,
+   "tasks_perfect": 4
+  },
+  {
+   "ci_hi": 0.9891008164545969,
+   "ci_lo": 0.963579816587725,
+   "n": 500,
+   "pass": 490,
+   "rate": 0.98,
+   "suite": "libero_10_task",
+   "tasks": 10,
+   "tasks_perfect": 6
+  },
+  {
+   "ci_hi": 0.9918707470085563,
+   "ci_lo": 0.9687488913091183,
+   "n": 500,
+   "pass": 492,
+   "rate": 0.984,
+   "suite": "libero_goal_swap",
+   "tasks": 10,
+   "tasks_perfect": 6
+  },
+  {
+   "ci_hi": 0.9944890048582558,
+   "ci_lo": 0.9740696387347714,
+   "n": 500,
+   "pass": 494,
+   "rate": 0.988,
+   "suite": "libero_goal_task",
+   "tasks": 10,
+   "tasks_perfect": 7
+  },
+  {
+   "ci_hi": 0.9968846848415651,
+   "ci_lo": 0.9796129640268147,
+   "n": 500,
+   "pass": 496,
+   "rate": 0.992,
+   "suite": "libero_object_swap",
+   "tasks": 10,
+   "tasks_perfect": 9
+  },
+  {
+   "ci_hi": 1.0000000000000002,
+   "ci_lo": 0.9923756594190853,
+   "n": 500,
+   "pass": 500,
+   "rate": 1.0,
+   "suite": "libero_object_task",
+   "tasks": 10,
+   "tasks_perfect": 10
+  },
+  {
+   "ci_hi": 0.9944890048582558,
+   "ci_lo": 0.9740696387347714,
+   "n": 500,
+   "pass": 494,
+   "rate": 0.988,
+   "suite": "libero_spatial_swap",
+   "tasks": 10,
+   "tasks_perfect": 6
+  },
+  {
+   "ci_hi": 0.9918707470085563,
+   "ci_lo": 0.9687488913091183,
+   "n": 500,
+   "pass": 492,
+   "rate": 0.984,
+   "suite": "libero_spatial_task",
+   "tasks": 10,
+   "tasks_perfect": 6
+  }
+ ],
+ "tasks": 80,
+ "tasks_perfect_heldout": 54
+}

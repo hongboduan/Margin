@@ -1,0 +1,26 @@
+[
+  {
+    "benchmark": "LIBERO-Pro",
+    "repairs": 74,
+    "tasks": 37,
+    "step_reduction_pct": 15.0,
+    "recoveries": 33,
+    "regressions": 25
+  },
+  {
+    "benchmark": "LIBERO-90",
+    "repairs": 14,
+    "tasks": 7,
+    "step_reduction_pct": 18.0,
+    "recoveries": 4,
+    "regressions": 1
+  },
+  {
+    "benchmark": "Robosuite",
+    "repairs": 4,
+    "tasks": 2,
+    "step_reduction_pct": 20.0,
+    "recoveries": 6,
+    "regressions": 0
+  }
+]

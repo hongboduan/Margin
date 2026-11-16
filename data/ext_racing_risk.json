@@ -1,0 +1,360 @@
+{
+ "l90": {
+  "racing": {
+   "candidates": 335,
+   "incumbent_perfect": 257,
+   "non_ablation": 161,
+   "oracle_floor": 985,
+   "partial": [],
+   "policies": {
+    "all": {
+     "fixed5_strict": {
+      "candidates": 335,
+      "episodes": 2085,
+      "false_rejects": 19,
+      "fr_rate": 0.3220338983050847,
+      "saving_vs_full15": 0.5850746268656717,
+      "selection_loss_sum": 25,
+      "tasks_with_loss": 16,
+      "true_improvers": 59,
+      "wall_h": 30.46547138888889
+     },
+     "full15": {
+      "candidates": 335,
+      "episodes": 5025,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.0,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 67.56459166666667
+     },
+     "safe_bound_fixed": {
+      "candidates": 335,
+      "episodes": 1049,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.7912437810945274,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 15.472291111111112
+     },
+     "safe_bound_simple": {
+      "candidates": 335,
+      "episodes": 1033,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.7944278606965174,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 15.258115277777776
+     },
+     "simple_failure_priority": {
+      "candidates": 335,
+      "episodes": 2305,
+      "false_rejects": 1,
+      "fr_rate": 0.01694915254237288,
+      "saving_vs_full15": 0.5412935323383085,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 33.294470277777776
+     },
+     "stop_on_perfect": {
+      "candidates": 335,
+      "episodes": 1170,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.7671641791044777,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 17.33470861111111
+     }
+    },
+    "non_ablation": {
+     "fixed5_strict": {
+      "candidates": 161,
+      "episodes": 1215,
+      "false_rejects": 19,
+      "fr_rate": 0.3220338983050847,
+      "saving_vs_full15": 0.49689440993788825,
+      "selection_loss_sum": 25,
+      "tasks_with_loss": 16,
+      "true_improvers": 59,
+      "wall_h": 18.215176111111113
+     },
+     "full15": {
+      "candidates": 161,
+      "episodes": 2415,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.0,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 34.11297972222222
+     },
+     "safe_bound_fixed": {
+      "candidates": 161,
+      "episodes": 1049,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.5656314699792961,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 15.472291111111112
+     },
+     "safe_bound_simple": {
+      "candidates": 161,
+      "episodes": 1033,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.5722567287784679,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 15.258115277777776
+     },
+     "simple_failure_priority": {
+      "candidates": 161,
+      "episodes": 1435,
+      "false_rejects": 1,
+      "fr_rate": 0.01694915254237288,
+      "saving_vs_full15": 0.4057971014492754,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 21.122955
+     },
+     "stop_on_perfect": {
+      "candidates": 161,
+      "episodes": 1170,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.515527950310559,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 59,
+      "wall_h": 17.33470861111111
+     }
+    }
+   },
+   "tasks": 90,
+   "true_improvers": 59
+  },
+  "repro": {
+   "dev_perfect": 90,
+   "evo_winners": 2,
+   "n": 4500,
+   "passes": 4462,
+   "tasks": 90,
+   "tasks_full": 71
+  },
+  "risk": {
+   "auc": 0.6971830985915493,
+   "auc_ci": [
+    0.5671111111111111,
+    0.811076923076923
+   ],
+   "fail_rate_high": 0.006666666666666667,
+   "fail_rate_low": 0.024444444444444446,
+   "fails_in_low": 11,
+   "fails_total": 38,
+   "low_margin": 9,
+   "positives": 19,
+   "programs": 90,
+   "risk_ratio": 3.6666666666666665,
+   "risk_ratio_ci": [
+    0.47058823529411764,
+    9.411764705882353
+   ],
+   "spearman": 0.28741920503523355,
+   "supported": true,
+   "underpowered": false
+  }
+ },
+ "rs": {
+  "racing": {
+   "candidates": 32,
+   "incumbent_perfect": 19,
+   "non_ablation": 22,
+   "oracle_floor": 229,
+   "partial": [],
+   "policies": {
+    "all": {
+     "fixed5_strict": {
+      "candidates": 32,
+      "episodes": 260,
+      "false_rejects": 4,
+      "fr_rate": 0.4444444444444444,
+      "saving_vs_full15": 0.675,
+      "selection_loss_sum": 4,
+      "tasks_with_loss": 3,
+      "true_improvers": 9,
+      "wall_h": 5.038654444444444
+     },
+     "full15": {
+      "candidates": 32,
+      "episodes": 800,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.0,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 14.348442777777779
+     },
+     "safe_bound_fixed": {
+      "candidates": 32,
+      "episodes": 260,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.675,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 5.210833333333333
+     },
+     "safe_bound_simple": {
+      "candidates": 32,
+      "episodes": 236,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.7050000000000001,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 4.768461944444445
+     },
+     "simple_failure_priority": {
+      "candidates": 32,
+      "episodes": 360,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.55,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 6.970388888888889
+     },
+     "stop_on_perfect": {
+      "candidates": 32,
+      "episodes": 325,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.59375,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 6.352246388888889
+     }
+    },
+    "non_ablation": {
+     "fixed5_strict": {
+      "candidates": 22,
+      "episodes": 210,
+      "false_rejects": 4,
+      "fr_rate": 0.4444444444444444,
+      "saving_vs_full15": 0.6181818181818182,
+      "selection_loss_sum": 4,
+      "tasks_with_loss": 3,
+      "true_improvers": 9,
+      "wall_h": 4.1438580555555555
+     },
+     "full15": {
+      "candidates": 22,
+      "episodes": 550,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.0,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 10.04455111111111
+     },
+     "safe_bound_fixed": {
+      "candidates": 22,
+      "episodes": 260,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.5272727272727273,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 5.210833333333333
+     },
+     "safe_bound_simple": {
+      "candidates": 22,
+      "episodes": 236,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.5709090909090909,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 4.768461944444445
+     },
+     "simple_failure_priority": {
+      "candidates": 22,
+      "episodes": 310,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.4363636363636364,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 6.053184722222222
+     },
+     "stop_on_perfect": {
+      "candidates": 22,
+      "episodes": 325,
+      "false_rejects": 0,
+      "fr_rate": 0.0,
+      "saving_vs_full15": 0.40909090909090906,
+      "selection_loss_sum": 0,
+      "tasks_with_loss": 0,
+      "true_improvers": 9,
+      "wall_h": 6.352246388888889
+     }
+    }
+   },
+   "tasks": 7,
+   "true_improvers": 9
+  },
+  "repro": {
+   "dev_perfect": 6,
+   "evo_winners": 0,
+   "n": 700,
+   "passes": 695,
+   "tasks": 7,
+   "tasks_full": 5
+  },
+  "risk": {
+   "auc": 0.75,
+   "auc_ci": [
+    0.2,
+    1.0
+   ],
+   "fail_rate_high": 0.0025,
+   "fail_rate_low": 0.02,
+   "fails_in_low": 4,
+   "fails_total": 5,
+   "low_margin": 2,
+   "positives": 2,
+   "programs": 6,
+   "risk_ratio": 8.0,
+   "risk_ratio_ci": [
+    0.0,
+    20.0
+   ],
+   "spearman": 0.50709255283711,
+   "supported": false,
+   "underpowered": true
+  }
+ }
+}

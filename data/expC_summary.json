@@ -1,0 +1,207 @@
+{
+ "complete_matrix_tasks_saturated": "72/74",
+ "dev_saturated_tasks": 78,
+ "frozen_population_note": "Phase 2b/3'a population = 72 dev-saturated tasks among the 74 with a complete 15-seed candidate matrix; the 6 arm-B adaptive-probe tasks are excluded",
+ "frozen_rows_mismatch": [
+  "libero_object_swap/task_9",
+  "libero_object_task/task_8",
+  "libero_object_task/task_9",
+  "libero_spatial_swap/task_7",
+  "libero_spatial_swap/task_9",
+  "libero_spatial_task/task_8"
+ ],
+ "heldout_failures_in_saturated": 53,
+ "heldout_failures_total_80": 73,
+ "heldout_vs_fresh_spearman": 0.7656075518394928,
+ "phase2b_heldout": {
+  "auc": 0.7686631944444444,
+  "auc_ci": [
+   0.6429765886287625,
+   0.876750700280112
+  ],
+  "episodes": 3600,
+  "fail_rate_high": 0.010526315789473684,
+  "fail_rate_low": 0.030666666666666665,
+  "failures": 53,
+  "failures_in_low": 23,
+  "margin_bins": [
+   {
+    "bin": "[0.00,0.10)",
+    "episodes": 250,
+    "fail_rate": 0.052,
+    "failures": 13,
+    "tasks": 5,
+    "tasks_with_failure": 5
+   },
+   {
+    "bin": "[0.10,0.25)",
+    "episodes": 500,
+    "fail_rate": 0.02,
+    "failures": 10,
+    "tasks": 10,
+    "tasks_with_failure": 4
+   },
+   {
+    "bin": "[0.25,0.40)",
+    "episodes": 800,
+    "fail_rate": 0.015,
+    "failures": 12,
+    "tasks": 16,
+    "tasks_with_failure": 7
+   },
+   {
+    "bin": "[0.40,1.00)",
+    "episodes": 2050,
+    "fail_rate": 0.00878048780487805,
+    "failures": 18,
+    "tasks": 41,
+    "tasks_with_failure": 8
+   }
+  ],
+  "n_high": 57,
+  "n_low": 15,
+  "positives": 24,
+  "risk_ratio": 2.913333333333333,
+  "risk_ratio_ci": [
+   1.2727272727272725,
+   6.214285714285714
+  ],
+  "success_rate": 0.9852777777777778,
+  "tasks": 72,
+  "within_suite_auc": 0.7596899224806202,
+  "within_suite_ci": [
+   0.6138613861386139,
+   0.889763779527559
+  ],
+  "within_suite_pairs": 129
+ },
+ "phase2b_heldout_all78_sensitivity": {
+  "auc": 0.7727623456790124,
+  "auc_ci": [
+   0.6471774193548387,
+   0.8794642857142857
+  ],
+  "episodes": 3900,
+  "fail_rate_high": 0.009523809523809525,
+  "fail_rate_low": 0.030666666666666665,
+  "failures": 53,
+  "failures_in_low": 23,
+  "margin_bins": [
+   {
+    "bin": "[0.00,0.10)",
+    "episodes": 250,
+    "fail_rate": 0.052,
+    "failures": 13,
+    "tasks": 5,
+    "tasks_with_failure": 5
+   },
+   {
+    "bin": "[0.10,0.25)",
+    "episodes": 500,
+    "fail_rate": 0.02,
+    "failures": 10,
+    "tasks": 10,
+    "tasks_with_failure": 4
+   },
+   {
+    "bin": "[0.25,0.40)",
+    "episodes": 850,
+    "fail_rate": 0.01411764705882353,
+    "failures": 12,
+    "tasks": 17,
+    "tasks_with_failure": 7
+   },
+   {
+    "bin": "[0.40,1.00)",
+    "episodes": 2300,
+    "fail_rate": 0.00782608695652174,
+    "failures": 18,
+    "tasks": 46,
+    "tasks_with_failure": 8
+   }
+  ],
+  "n_high": 63,
+  "n_low": 15,
+  "positives": 24,
+  "risk_ratio": 3.2199999999999998,
+  "risk_ratio_ci": [
+   1.384297520661157,
+   6.766666666666667
+  ],
+  "success_rate": 0.9864102564102564,
+  "tasks": 78,
+  "within_suite_auc": 0.7428571428571429,
+  "within_suite_ci": [
+   0.5915492957746479,
+   0.8725490196078431
+  ],
+  "within_suite_pairs": 140
+ },
+ "phase3a_fresh": {
+  "auc": 0.7735849056603774,
+  "auc_ci": [
+   0.6310160427807486,
+   0.8865497076023392
+  ],
+  "episodes": 2160,
+  "fail_rate_high": 0.013450292397660818,
+  "fail_rate_low": 0.04,
+  "failures": 41,
+  "failures_in_low": 18,
+  "margin_bins": [
+   {
+    "bin": "[0.00,0.10)",
+    "episodes": 150,
+    "fail_rate": 0.06666666666666667,
+    "failures": 10,
+    "tasks": 5,
+    "tasks_with_failure": 4
+   },
+   {
+    "bin": "[0.10,0.25)",
+    "episodes": 300,
+    "fail_rate": 0.02666666666666667,
+    "failures": 8,
+    "tasks": 10,
+    "tasks_with_failure": 4
+   },
+   {
+    "bin": "[0.25,0.40)",
+    "episodes": 480,
+    "fail_rate": 0.020833333333333332,
+    "failures": 10,
+    "tasks": 16,
+    "tasks_with_failure": 5
+   },
+   {
+    "bin": "[0.40,1.00)",
+    "episodes": 1230,
+    "fail_rate": 0.01056910569105691,
+    "failures": 13,
+    "tasks": 41,
+    "tasks_with_failure": 6
+   }
+  ],
+  "n_high": 57,
+  "n_low": 15,
+  "positives": 19,
+  "risk_ratio": 2.973913043478261,
+  "risk_ratio_ci": [
+   1.0331384015594542,
+   7.853333333333334
+  ],
+  "success_rate": 0.9810185185185185,
+  "tasks": 72,
+  "within_suite_auc": 0.6886792452830188,
+  "within_suite_ci": [
+   0.5227272727272727,
+   0.8571428571428571
+  ],
+  "within_suite_pairs": 106
+ },
+ "saturated_tasks_with_heldout_failure": 24,
+ "skipped": [],
+ "tasks_total": 80,
+ "tasks_with_selected_dev_sweep": 80,
+ "value_mismatch_within_frozen": []
+}

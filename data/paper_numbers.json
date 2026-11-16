@@ -1,0 +1,2152 @@
+{
+ "AblCands": {
+  "source": "expB_summary.candidates_by_category",
+  "tex": "134",
+  "value": 134
+ },
+ "CostCacheReadMin": {
+  "source": "cache-read share of tokens, min over stages",
+  "tex": "79",
+  "value": 78.87814359408188
+ },
+ "CostCampLn": {
+  "source": "cost_summary LIBERO-90 campaign USD",
+  "tex": "1,124",
+  "value": 1123.8674654000001
+ },
+ "CostCampRx": {
+  "source": "cost_summary Robosuite campaign USD",
+  "tex": "110",
+  "value": 110.35437760000002
+ },
+ "CostCampTaskMax": {
+  "source": "cost_summary campaign USD per task, max",
+  "tex": "15.8",
+  "value": 15.764911085714289
+ },
+ "CostCampTaskMin": {
+  "source": "cost_summary campaign USD per task, min",
+  "tex": "12.5",
+  "value": 12.487416282222224
+ },
+ "CostDdUSD": {
+  "source": "expD_summary.costs.D",
+  "tex": "95",
+  "value": 95.4752144
+ },
+ "CostMarginTaskMax": {
+  "source": "cost_summary repair USD per repaired task, max",
+  "tex": "6.0",
+  "value": 6.035777928000001
+ },
+ "CostMarginTaskMin": {
+  "source": "cost_summary repair USD per repaired task, min",
+  "tex": "4.4",
+  "value": 4.4233231837837845
+ },
+ "CostReplTotal": {
+  "source": "all MARGIN repair USD",
+  "tex": "338",
+  "value": 337.82322300000004
+ },
+ "CostTbUSD": {
+  "source": "expD_summary.costs.3b (Claude Code estimate)",
+  "tex": "68",
+  "value": 68.1877434
+ },
+ "CtlA0Fail": {
+  "source": "expE_arms.csv",
+  "tex": "2.27",
+  "value": 2.27027027027027
+ },
+ "CtlA0Rec": {
+  "source": "expE_arms.csv",
+  "tex": "0.89",
+  "value": 0.891891891891892
+ },
+ "CtlA0Reg": {
+  "source": "expE_arms.csv",
+  "tex": "0.68",
+  "value": 0.6756756756756757
+ },
+ "CtlA1DReg": {
+  "source": "expE_arms.csv",
+  "tex": "-0.14",
+  "value": -0.13513513513513514
+ },
+ "CtlA1DRegHi": {
+  "source": "",
+  "tex": "-0.03",
+  "value": -0.02702702702702703
+ },
+ "CtlA1DRegLo": {
+  "source": "",
+  "tex": "-0.27",
+  "value": -0.2702702702702703
+ },
+ "CtlA1Fail": {
+  "source": "expE_arms.csv",
+  "tex": "2.19",
+  "value": 2.1891891891891895
+ },
+ "CtlA1Rec": {
+  "source": "expE_arms.csv",
+  "tex": "0.84",
+  "value": 0.8378378378378378
+ },
+ "CtlA1Reg": {
+  "source": "expE_arms.csv",
+  "tex": "0.54",
+  "value": 0.5405405405405406
+ },
+ "CtlA2DReg": {
+  "source": "expE_arms.csv",
+  "tex": "-0.08",
+  "value": -0.08108108108108107
+ },
+ "CtlA2DRegHi": {
+  "source": "",
+  "tex": "+0.00",
+  "value": 0.0
+ },
+ "CtlA2DRegLo": {
+  "source": "",
+  "tex": "-0.22",
+  "value": -0.21621621621621623
+ },
+ "CtlA2Fail": {
+  "source": "expE_arms.csv",
+  "tex": "2.30",
+  "value": 2.297297297297297
+ },
+ "CtlA2Rec": {
+  "source": "expE_arms.csv",
+  "tex": "0.78",
+  "value": 0.7837837837837838
+ },
+ "CtlA2Reg": {
+  "source": "expE_arms.csv",
+  "tex": "0.59",
+  "value": 0.5945945945945946
+ },
+ "CtlA3DReg": {
+  "source": "expE_arms.csv",
+  "tex": "-0.05",
+  "value": -0.05405405405405406
+ },
+ "CtlA3DRegHi": {
+  "source": "",
+  "tex": "+0.00",
+  "value": 0.0
+ },
+ "CtlA3DRegLo": {
+  "source": "",
+  "tex": "-0.16",
+  "value": -0.16216216216216214
+ },
+ "CtlA3Fail": {
+  "source": "expE_arms.csv",
+  "tex": "2.22",
+  "value": 2.2162162162162167
+ },
+ "CtlA3Rec": {
+  "source": "expE_arms.csv",
+  "tex": "0.89",
+  "value": 0.891891891891892
+ },
+ "CtlA3Reg": {
+  "source": "expE_arms.csv",
+  "tex": "0.62",
+  "value": 0.6216216216216217
+ },
+ "CtlAOneRej": {
+  "source": "expE_summary.rejections (by A1)",
+  "tex": "5",
+  "value": 5
+ },
+ "CtlAOneRejVLMClear": {
+  "source": "expE_summary.rejections (A1-rejected with VLM verdict no_regression)",
+  "tex": "3",
+  "value": 3
+ },
+ "CtlATwoRej": {
+  "source": "expE_summary.rejections (by A2)",
+  "tex": "3",
+  "value": 3
+ },
+ "CtlATwoRejProbeHarm": {
+  "source": "expE_summary.rejections (A2, probe net harm)",
+  "tex": "1",
+  "value": 1
+ },
+ "CtlAallDReg": {
+  "source": "expE_arms.csv",
+  "tex": "-0.24",
+  "value": -0.24324324324324323
+ },
+ "CtlAallDRegHi": {
+  "source": "",
+  "tex": "-0.03",
+  "value": -0.02702702702702703
+ },
+ "CtlAallDRegLo": {
+  "source": "",
+  "tex": "-0.51",
+  "value": -0.5135135135135136
+ },
+ "CtlAallFail": {
+  "source": "expE_arms.csv",
+  "tex": "2.11",
+  "value": 2.108108108108108
+ },
+ "CtlAallRec": {
+  "source": "expE_arms.csv",
+  "tex": "0.81",
+  "value": 0.8108108108108109
+ },
+ "CtlAallReg": {
+  "source": "expE_arms.csv",
+  "tex": "0.43",
+  "value": 0.43243243243243246
+ },
+ "CtlAlarm": {
+  "source": "",
+  "tex": "26",
+  "value": 26
+ },
+ "CtlArDReg": {
+  "source": "expE_arms.csv",
+  "tex": "-0.09",
+  "value": -0.08505405405405407
+ },
+ "CtlArDRegHi": {
+  "source": "",
+  "tex": "-0.01",
+  "value": -0.01002702702702703
+ },
+ "CtlArDRegLo": {
+  "source": "",
+  "tex": "-0.18",
+  "value": -0.17970270270270272
+ },
+ "CtlArDiff": {
+  "source": "expE_summary",
+  "tex": "-0.05",
+  "value": -0.05008108108108107
+ },
+ "CtlArDiffHi": {
+  "source": "",
+  "tex": "+0.08",
+  "value": 0.07502702702702703
+ },
+ "CtlArDiffLo": {
+  "source": "",
+  "tex": "-0.16",
+  "value": -0.1588378378378378
+ },
+ "CtlArFail": {
+  "source": "expE_arms.csv",
+  "tex": "2.21",
+  "value": 2.213783783783784
+ },
+ "CtlArRec": {
+  "source": "expE_arms.csv",
+  "tex": "0.86",
+  "value": 0.8633243243243244
+ },
+ "CtlArReg": {
+  "source": "expE_arms.csv",
+  "tex": "0.59",
+  "value": 0.5906216216216217
+ },
+ "CtlCands": {
+  "source": "",
+  "tex": "74",
+  "value": 74
+ },
+ "CtlNetHarm": {
+  "source": "expE_summary.probe_net_harm_candidates",
+  "tex": "8",
+  "value": 8
+ },
+ "CtlProbeAOne": {
+  "source": "expE_summary.cost.A1",
+  "tex": "1,040",
+  "value": 1040
+ },
+ "CtlProbeAThree": {
+  "source": "expE_summary.cost.A3",
+  "tex": "200",
+  "value": 200
+ },
+ "CtlProbeAall": {
+  "source": "expE_summary.cost.A1all",
+  "tex": "2,960",
+  "value": 2960
+ },
+ "CtlSDReg": {
+  "source": "expE_arms.csv",
+  "tex": "-0.68",
+  "value": -0.6756756756756757
+ },
+ "CtlSDRegHi": {
+  "source": "",
+  "tex": "-0.32",
+  "value": -0.3243243243243243
+ },
+ "CtlSDRegLo": {
+  "source": "",
+  "tex": "-1.08",
+  "value": -1.0810810810810811
+ },
+ "CtlSFail": {
+  "source": "expE_arms.csv",
+  "tex": "2.49",
+  "value": 2.486486486486487
+ },
+ "CtlSRec": {
+  "source": "expE_arms.csv",
+  "tex": "0.00",
+  "value": 0.0
+ },
+ "CtlSReg": {
+  "source": "expE_arms.csv",
+  "tex": "0.00",
+  "value": 0.0
+ },
+ "CtlTasks": {
+  "source": "",
+  "tex": "37",
+  "value": 37
+ },
+ "CtlVLMCalls": {
+  "source": "expE_summary.cost.A2",
+  "tex": "26",
+  "value": 26
+ },
+ "CtlVLMUSD": {
+  "source": "",
+  "tex": "2",
+  "value": 1.9993872
+ },
+ "DdBudgetInc": {
+  "source": "expD_summary.phaseD.kind_rates",
+  "tex": "0.8",
+  "value": 0.8108108108108109
+ },
+ "DdBudgetRep": {
+  "source": "",
+  "tex": "0.1",
+  "value": 0.13513513513513514
+ },
+ "DdCands": {
+  "source": "expD_summary.phaseD",
+  "tex": "74",
+  "value": 74
+ },
+ "DdDFail": {
+  "source": "expD_summary.phaseD.task_level.d_fail",
+  "tex": "-0.22",
+  "value": -0.21621621621621623
+ },
+ "DdDFailHi": {
+  "source": "",
+  "tex": "+0.30",
+  "value": 0.2972972972972973
+ },
+ "DdDFailLo": {
+  "source": "",
+  "tex": "-0.92",
+  "value": -0.9189189189189189
+ },
+ "DdFaster": {
+  "source": "expD_summary.phaseD.runs_faster",
+  "tex": "72",
+  "value": 72
+ },
+ "DdIncompInc": {
+  "source": "",
+  "tex": "1.7",
+  "value": 1.6756756756756757
+ },
+ "DdIncompRep": {
+  "source": "",
+  "tex": "2.1",
+  "value": 2.135135135135135
+ },
+ "DdMarginUp": {
+  "source": "",
+  "tex": "63",
+  "value": 63
+ },
+ "DdMedInc": {
+  "source": "expD_summary.phaseD",
+  "tex": "665",
+  "value": 665.0
+ },
+ "DdMedRep": {
+  "source": "expD_summary.phaseD",
+  "tex": "578",
+  "value": 578.0
+ },
+ "DdPNinetyInc": {
+  "source": "expD_summary.phaseD",
+  "tex": "824",
+  "value": 824
+ },
+ "DdPNinetyRep": {
+  "source": "expD_summary.phaseD",
+  "tex": "740",
+  "value": 740
+ },
+ "DdRec": {
+  "source": "",
+  "tex": "33",
+  "value": 33
+ },
+ "DdReg": {
+  "source": "",
+  "tex": "25",
+  "value": 25
+ },
+ "DdRelStepsHi": {
+  "source": "task-level",
+  "tex": "19.1",
+  "value": 19.0689080045462
+ },
+ "DdRelStepsLo": {
+  "source": "task-level",
+  "tex": "12.4",
+  "value": 12.385933765118521
+ },
+ "DdSRInc": {
+  "source": "expD_summary.phaseD",
+  "tex": "97.5",
+  "value": 97.51351351351352
+ },
+ "DdSRRep": {
+  "source": "expD_summary.phaseD",
+  "tex": "97.7",
+  "value": 97.72972972972973
+ },
+ "DdStepsInc": {
+  "source": "expD_summary.phaseD.incumbent.mean_steps",
+  "tex": "648",
+  "value": 647.6318918918919
+ },
+ "DdStepsRel": {
+  "source": "expD_summary.phaseD.rel_mean_steps_pooled",
+  "tex": "15.0",
+  "value": 15.017665190185625
+ },
+ "DdStepsRep": {
+  "source": "expD_summary.phaseD.repaired.mean_steps",
+  "tex": "550",
+  "value": 550.3727027027027
+ },
+ "DdTasks": {
+  "source": "expD_summary.phaseD",
+  "tex": "37",
+  "value": 37
+ },
+ "DdWorstInc": {
+  "source": "expD_summary.phaseD",
+  "tex": "779",
+  "value": 779.1351351351351
+ },
+ "DdWorstRep": {
+  "source": "expD_summary.phaseD",
+  "tex": "662",
+  "value": 661.7297297297297
+ },
+ "DecisionPoints": {
+  "source": "expB_summary.candidates",
+  "tex": "304",
+  "value": 304
+ },
+ "DevDd": {
+  "source": "",
+  "tex": "1243",
+  "value": 1243
+ },
+ "DevTb": {
+  "source": "",
+  "tex": "898",
+  "value": 898
+ },
+ "DiagAUC": {
+  "source": "expC_summary.phase2b_heldout.auc",
+  "tex": "0.769",
+  "value": 0.7686631944444444
+ },
+ "DiagAUCAll": {
+  "source": "expC_summary.phase2b_heldout_all78_sensitivity.auc",
+  "tex": "0.773",
+  "value": 0.7727623456790124
+ },
+ "DiagAUCHi": {
+  "source": "expC_summary.phase2b_heldout.auc_ci",
+  "tex": "0.88",
+  "value": 0.876750700280112
+ },
+ "DiagAUCLo": {
+  "source": "expC_summary.phase2b_heldout.auc_ci",
+  "tex": "0.64",
+  "value": 0.6429765886287625
+ },
+ "DiagEps": {
+  "source": "expC_summary.phase2b_heldout.episodes",
+  "tex": "3,600",
+  "value": 3600
+ },
+ "DiagFATrace": {
+  "source": "expF.CB.R1_llm",
+  "tex": "40",
+  "value": 40.0
+ },
+ "DiagFAVis": {
+  "source": "expF.CB.R2_llm",
+  "tex": "49",
+  "value": 48.57142857142857
+ },
+ "DiagFailHigh": {
+  "source": "expC_summary.phase2b_heldout.fail_rate_high",
+  "tex": "1.05",
+  "value": 1.0526315789473684
+ },
+ "DiagFailInLow": {
+  "source": "expC_summary.phase2b_heldout.failures_in_low",
+  "tex": "23",
+  "value": 23
+ },
+ "DiagFailLow": {
+  "source": "expC_summary.phase2b_heldout.fail_rate_low",
+  "tex": "3.07",
+  "value": 3.0666666666666664
+ },
+ "DiagFails": {
+  "source": "expC_summary.phase2b_heldout.failures",
+  "tex": "53",
+  "value": 53
+ },
+ "DiagMechMaj": {
+  "source": "expF.CA.R0_majority",
+  "tex": "43.9",
+  "value": 43.90243902439025
+ },
+ "DiagMechTrace": {
+  "source": "expF.CA.R1_llm",
+  "tex": "35.8",
+  "value": 35.77235772357724
+ },
+ "DiagMechVis": {
+  "source": "expF.CA.R2_llm",
+  "tex": "63.4",
+  "value": 63.41463414634146
+ },
+ "DiagNLow": {
+  "source": "expC_summary.phase2b_heldout.n_low",
+  "tex": "15",
+  "value": 15
+ },
+ "DiagPos": {
+  "source": "expC_summary.phase2b_heldout.positives",
+  "tex": "24",
+  "value": 24
+ },
+ "DiagRR": {
+  "source": "expC_summary.phase2b_heldout.risk_ratio",
+  "tex": "2.91",
+  "value": 2.913333333333333
+ },
+ "DiagRRHi": {
+  "source": "expC_summary.phase2b_heldout.risk_ratio_ci",
+  "tex": "6.21",
+  "value": 6.214285714285714
+ },
+ "DiagRRLo": {
+  "source": "expC_summary.phase2b_heldout.risk_ratio_ci",
+  "tex": "1.27",
+  "value": 1.2727272727272725
+ },
+ "DiagTasks": {
+  "source": "expC_summary.phase2b_heldout.tasks",
+  "tex": "72",
+  "value": 72
+ },
+ "DiagVisGain": {
+  "source": "expF.CA R2_llm - R1_llm",
+  "tex": "28",
+  "value": 27.64227642276423
+ },
+ "DiagWsAUC": {
+  "source": "expC_summary.phase2b_heldout.within_suite_auc",
+  "tex": "0.760",
+  "value": 0.7596899224806202
+ },
+ "DiagWsHi": {
+  "source": "expC_summary.phase2b_heldout.within_suite_ci",
+  "tex": "0.89",
+  "value": 0.889763779527559
+ },
+ "DiagWsLo": {
+  "source": "expC_summary.phase2b_heldout.within_suite_ci",
+  "tex": "0.61",
+  "value": 0.6138613861386139
+ },
+ "DnBudgetInc": {
+  "source": "expD_summary.phaseD_new22.kind_rates",
+  "tex": "0.4",
+  "value": 0.36363636363636365
+ },
+ "DnBudgetRep": {
+  "source": "",
+  "tex": "0.1",
+  "value": 0.09090909090909091
+ },
+ "DnCands": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "44",
+  "value": 44
+ },
+ "DnDFail": {
+  "source": "expD_summary.phaseD_new22.task_level.d_fail",
+  "tex": "+0.05",
+  "value": 0.045454545454545456
+ },
+ "DnDFailHi": {
+  "source": "",
+  "tex": "+0.86",
+  "value": 0.8636363636363636
+ },
+ "DnDFailLo": {
+  "source": "",
+  "tex": "-0.91",
+  "value": -0.9090909090909092
+ },
+ "DnFaster": {
+  "source": "expD_summary.phaseD_new22.runs_faster",
+  "tex": "42",
+  "value": 42
+ },
+ "DnIncompInc": {
+  "source": "",
+  "tex": "1.3",
+  "value": 1.2727272727272727
+ },
+ "DnIncompRep": {
+  "source": "",
+  "tex": "1.6",
+  "value": 1.5909090909090908
+ },
+ "DnMarginUp": {
+  "source": "",
+  "tex": "36",
+  "value": 36
+ },
+ "DnMedInc": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "573",
+  "value": 573.0
+ },
+ "DnMedRep": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "440",
+  "value": 440.0
+ },
+ "DnPNinetyInc": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "696",
+  "value": 696
+ },
+ "DnPNinetyRep": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "608",
+  "value": 608
+ },
+ "DnRec": {
+  "source": "",
+  "tex": "11",
+  "value": 11
+ },
+ "DnReg": {
+  "source": "",
+  "tex": "12",
+  "value": 12
+ },
+ "DnRelStepsHi": {
+  "source": "task-level",
+  "tex": "23.6",
+  "value": 23.570682432951234
+ },
+ "DnRelStepsLo": {
+  "source": "task-level",
+  "tex": "13.9",
+  "value": 13.924826722436787
+ },
+ "DnRepairTasks": {
+  "source": "expD_summary.phaseD_new22.unique_tasks",
+  "tex": "22",
+  "value": 22
+ },
+ "DnSRInc": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "98.4",
+  "value": 98.36363636363636
+ },
+ "DnSRRep": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "98.3",
+  "value": 98.31818181818181
+ },
+ "DnStepsInc": {
+  "source": "expD_summary.phaseD_new22.incumbent.mean_steps",
+  "tex": "562",
+  "value": 561.8936363636363
+ },
+ "DnStepsRel": {
+  "source": "expD_summary.phaseD_new22.rel_mean_steps_pooled",
+  "tex": "18.9",
+  "value": 18.949477659149327
+ },
+ "DnStepsRep": {
+  "source": "expD_summary.phaseD_new22.repaired.mean_steps",
+  "tex": "455",
+  "value": 455.4177272727273
+ },
+ "DnTasks": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "22",
+  "value": 22
+ },
+ "DnWorstInc": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "701",
+  "value": 700.6818181818181
+ },
+ "DnWorstRep": {
+  "source": "expD_summary.phaseD_new22",
+  "tex": "573",
+  "value": 572.8181818181819
+ },
+ "EpsFixedFive": {
+  "source": "independent",
+  "tex": "1,290",
+  "value": 1290
+ },
+ "EpsFull": {
+  "source": "independent",
+  "tex": "2,550",
+  "value": 2550
+ },
+ "EpsRace": {
+  "source": "independent",
+  "tex": "1,186",
+  "value": 1186
+ },
+ "EpsRaceAll": {
+  "source": "independent.all",
+  "tex": "1,187",
+  "value": 1187
+ },
+ "EpsRaceRandAll": {
+  "source": "phase2_csv.all",
+  "tex": "1,260",
+  "value": 1260.15
+ },
+ "EpsSoP": {
+  "source": "independent",
+  "tex": "1,395",
+  "value": 1395
+ },
+ "ExDevMInc": {
+  "source": "expD_pairs.csv 3b task_4 run1",
+  "tex": "0.010",
+  "value": 0.010000000000000009
+ },
+ "ExDevMRep": {
+  "source": "expD_pairs.csv 3b task_4 run1",
+  "tex": "0.178",
+  "value": 0.17800000000000005
+ },
+ "ExFailInc": {
+  "source": "expD_pairs.csv 3b task_4 run1",
+  "tex": "10",
+  "value": 10
+ },
+ "ExFailRep": {
+  "source": "expD_pairs.csv 3b task_4 run1",
+  "tex": "5",
+  "value": 5
+ },
+ "ExRec": {
+  "source": "expD_pairs.csv 3b task_4 run1",
+  "tex": "10",
+  "value": 10
+ },
+ "ExReg": {
+  "source": "expD_pairs.csv 3b task_4 run1",
+  "tex": "5",
+  "value": 5
+ },
+ "ExStepsInc": {
+  "source": "expD_pairs.csv 3b task_4 run1",
+  "tex": "883",
+  "value": 883.2
+ },
+ "ExStepsRep": {
+  "source": "expD_pairs.csv 3b task_4 run1",
+  "tex": "799",
+  "value": 798.52
+ },
+ "ExtFaster": {
+  "source": "round-2 faster",
+  "tex": "58",
+  "value": 58
+ },
+ "ExtProgs": {
+  "source": "round-2 candidate pools",
+  "tex": "58",
+  "value": 58
+ },
+ "ExtStepsMax": {
+  "source": "max pooled step reduction, new benchmarks",
+  "tex": "20.0",
+  "value": 19.953305498062747
+ },
+ "ExtStepsMin": {
+  "source": "min pooled step reduction, new benchmarks",
+  "tex": "18.0",
+  "value": 17.95624771647789
+ },
+ "ExtTasks": {
+  "source": "round-2 unique tasks",
+  "tex": "29",
+  "value": 29
+ },
+ "FRFixedFive": {
+  "source": "independent",
+  "tex": "20",
+  "value": 20
+ },
+ "FRFixedFivePct": {
+  "source": "independent",
+  "tex": "32.3",
+  "value": 32.25806451612903
+ },
+ "FixedFiveLossTasks": {
+  "source": "expB_summary.independent.all.fixed5_strict.tasks_with_loss",
+  "tex": "14",
+  "value": 14
+ },
+ "FreshAUC": {
+  "source": "expC_summary.phase3a_fresh.auc",
+  "tex": "0.774",
+  "value": 0.7735849056603774
+ },
+ "FreshAUCHi": {
+  "source": "expC_summary.phase3a_fresh.auc_ci",
+  "tex": "0.89",
+  "value": 0.8865497076023392
+ },
+ "FreshAUCLo": {
+  "source": "expC_summary.phase3a_fresh.auc_ci",
+  "tex": "0.63",
+  "value": 0.6310160427807486
+ },
+ "FreshEps": {
+  "source": "expC_summary.phase3a_fresh.episodes",
+  "tex": "2,160",
+  "value": 2160
+ },
+ "FreshFailHigh": {
+  "source": "expC_summary.phase3a_fresh.fail_rate_high",
+  "tex": "1.35",
+  "value": 1.345029239766082
+ },
+ "FreshFailInLow": {
+  "source": "expC_summary.phase3a_fresh.failures_in_low",
+  "tex": "18",
+  "value": 18
+ },
+ "FreshFailLow": {
+  "source": "expC_summary.phase3a_fresh.fail_rate_low",
+  "tex": "4.00",
+  "value": 4.0
+ },
+ "FreshFails": {
+  "source": "expC_summary.phase3a_fresh.failures",
+  "tex": "41",
+  "value": 41
+ },
+ "FreshLowSharePct": {
+  "source": "expC_summary.phase3a_fresh n_low/tasks",
+  "tex": "21",
+  "value": 20.833333333333332
+ },
+ "FreshNLow": {
+  "source": "expC_summary.phase3a_fresh.n_low",
+  "tex": "15",
+  "value": 15
+ },
+ "FreshPos": {
+  "source": "expC_summary.phase3a_fresh.positives",
+  "tex": "19",
+  "value": 19
+ },
+ "FreshRR": {
+  "source": "expC_summary.phase3a_fresh.risk_ratio",
+  "tex": "2.97",
+  "value": 2.973913043478261
+ },
+ "FreshRRHi": {
+  "source": "expC_summary.phase3a_fresh.risk_ratio_ci",
+  "tex": "7.85",
+  "value": 7.853333333333334
+ },
+ "FreshRRLo": {
+  "source": "expC_summary.phase3a_fresh.risk_ratio_ci",
+  "tex": "1.03",
+  "value": 1.0331384015594542
+ },
+ "FreshSR": {
+  "source": "expC_summary.phase3a_fresh.success_rate",
+  "tex": "98.10",
+  "value": 98.10185185185185
+ },
+ "FreshTasks": {
+  "source": "expC_summary.phase3a_fresh.tasks",
+  "tex": "72",
+  "value": 72
+ },
+ "FreshWsAUC": {
+  "source": "expC_summary.phase3a_fresh.within_suite_auc",
+  "tex": "0.689",
+  "value": 0.6886792452830188
+ },
+ "FreshWsHi": {
+  "source": "expC_summary.phase3a_fresh.within_suite_ci",
+  "tex": "0.86",
+  "value": 0.8571428571428571
+ },
+ "FreshWsLo": {
+  "source": "expC_summary.phase3a_fresh.within_suite_ci",
+  "tex": "0.52",
+  "value": 0.5227272727272727
+ },
+ "GoldFarInc": {
+  "source": "expD_summary.gold_mechanisms_3b A|FAR_FROM_TARGET / 750",
+  "tex": "0.40",
+  "value": 0.4
+ },
+ "GoldFarRep": {
+  "source": "expD_summary.gold_mechanisms_3b B|FAR_FROM_TARGET / 1500",
+  "tex": "0.53",
+  "value": 0.5333333333333333
+ },
+ "GoldHeldInc": {
+  "source": "expD_summary.gold_mechanisms_3b A|HELD_AT_END / 750",
+  "tex": "1.33",
+  "value": 1.3333333333333333
+ },
+ "GoldHeldIncN": {
+  "source": "expD_summary.gold_mechanisms_3b",
+  "tex": "10",
+  "value": 10
+ },
+ "GoldHeldRep": {
+  "source": "expD_summary.gold_mechanisms_3b B|HELD_AT_END / 1500",
+  "tex": "0.07",
+  "value": 0.06666666666666667
+ },
+ "GoldHeldRepN": {
+  "source": "expD_summary.gold_mechanisms_3b",
+  "tex": "1",
+  "value": 1
+ },
+ "GoldNearInc": {
+  "source": "expD_summary.gold_mechanisms_3b A|NEAR_TARGET_MISS / 750",
+  "tex": "1.87",
+  "value": 1.8666666666666667
+ },
+ "GoldNearRep": {
+  "source": "expD_summary.gold_mechanisms_3b B|NEAR_TARGET_MISS / 1500",
+  "tex": "2.00",
+  "value": 2.0
+ },
+ "GoldNotAcqInc": {
+  "source": "expD_summary.gold_mechanisms_3b A|NOT_ACQUIRED / 750",
+  "tex": "2.13",
+  "value": 2.1333333333333333
+ },
+ "GoldNotAcqRep": {
+  "source": "expD_summary.gold_mechanisms_3b B|NOT_ACQUIRED / 1500",
+  "tex": "2.53",
+  "value": 2.533333333333333
+ },
+ "GoldPlanFail": {
+  "source": "gold plan.json why=failure",
+  "tex": "123",
+  "value": 123
+ },
+ "GoldPlanRegPairs": {
+  "source": "gold plan.json regression pairs",
+  "tex": "22",
+  "value": 22
+ },
+ "GoldPlanRegUnique": {
+  "source": "gold plan.json unique counterpart episodes",
+  "tex": "20",
+  "value": 20
+ },
+ "GoldPlanSucc": {
+  "source": "gold plan.json success controls",
+  "tex": "50",
+  "value": 50
+ },
+ "GoldPlanTotal": {
+  "source": "gold plan.json unique (task, arm, seed)",
+  "tex": "193",
+  "value": 193
+ },
+ "GoldReproduced": {
+  "source": "expD_summary.gold_mechanisms_3b",
+  "tex": "193",
+  "value": 193
+ },
+ "GoldTotArtic": {
+  "source": "expD_summary.gold_mechanisms_3b ARTICULATION_UNMET A+B",
+  "tex": "3",
+  "value": 3
+ },
+ "GoldTotFar": {
+  "source": "expD_summary.gold_mechanisms_3b FAR_FROM_TARGET A+B",
+  "tex": "11",
+  "value": 11
+ },
+ "GoldTotHeld": {
+  "source": "expD_summary.gold_mechanisms_3b HELD_AT_END A+B",
+  "tex": "11",
+  "value": 11
+ },
+ "GoldTotNear": {
+  "source": "expD_summary.gold_mechanisms_3b NEAR_TARGET_MISS A+B",
+  "tex": "44",
+  "value": 44
+ },
+ "GoldTotNotAcq": {
+  "source": "expD_summary.gold_mechanisms_3b NOT_ACQUIRED A+B",
+  "tex": "54",
+  "value": 54
+ },
+ "HeldFreshRho": {
+  "source": "expC_summary.heldout_vs_fresh_spearman",
+  "tex": "0.77",
+  "value": 0.7656075518394928
+ },
+ "HeldoutFailInSat": {
+  "source": "expC_summary",
+  "tex": "53",
+  "value": 53
+ },
+ "HeldoutFailInSatPct": {
+  "source": "derived",
+  "tex": "73",
+  "value": 72.6027397260274
+ },
+ "HeldoutFailTotal": {
+  "source": "expC_summary",
+  "tex": "73",
+  "value": 73
+ },
+ "LnAUC": {
+  "source": "ext_racing_risk.l90.risk.auc",
+  "tex": "0.697",
+  "value": 0.6971830985915493
+ },
+ "LnAUCHi": {
+  "source": "ext_racing_risk.l90.risk.auc_ci",
+  "tex": "0.811",
+  "value": 0.811076923076923
+ },
+ "LnAUCLo": {
+  "source": "ext_racing_risk.l90.risk.auc_ci",
+  "tex": "0.567",
+  "value": 0.5671111111111111
+ },
+ "LnAZeroRec": {
+  "source": "margin_ext_summary.l90_arms.A0",
+  "tex": "0.64",
+  "value": 0.64
+ },
+ "LnAZeroReg": {
+  "source": "margin_ext_summary.l90_arms.A0",
+  "tex": "0.32",
+  "value": 0.32
+ },
+ "LnDevPerfect": {
+  "source": "ext_racing_risk.l90.repro.dev_perfect",
+  "tex": "90",
+  "value": 90
+ },
+ "LnFailHigh": {
+  "source": "ext_racing_risk.l90.risk.fail_rate_high",
+  "tex": "0.67",
+  "value": 0.6666666666666667
+ },
+ "LnFailLow": {
+  "source": "ext_racing_risk.l90.risk.fail_rate_low",
+  "tex": "2.44",
+  "value": 2.4444444444444446
+ },
+ "LnFailsAll": {
+  "source": "ext_racing_risk.l90.risk.fails_total",
+  "tex": "38",
+  "value": 38
+ },
+ "LnFailsInLow": {
+  "source": "ext_racing_risk.l90.risk.fails_in_low",
+  "tex": "11",
+  "value": 11
+ },
+ "LnFiveFR": {
+  "source": "ext_racing_risk.l90.racing",
+  "tex": "19",
+  "value": 19
+ },
+ "LnFiveFRPct": {
+  "source": "ext_racing_risk.l90.racing",
+  "tex": "32",
+  "value": 32.20338983050848
+ },
+ "LnN": {
+  "source": "ext_racing_risk.l90.repro.n",
+  "tex": "4,500",
+  "value": 4500
+ },
+ "LnNLow": {
+  "source": "ext_racing_risk.l90.risk.low_margin",
+  "tex": "9",
+  "value": 9
+ },
+ "LnOneFaster": {
+  "source": "margin_ext_summary.l90.runs_faster",
+  "tex": "14",
+  "value": 14
+ },
+ "LnOneHSInc": {
+  "source": "margin_ext_summary.l90.incumbent.kinds",
+  "tex": "2",
+  "value": 2
+ },
+ "LnOneHSRep": {
+  "source": "margin_ext_summary.l90.repaired.kinds",
+  "tex": "0",
+  "value": 0
+ },
+ "LnOneProgs": {
+  "source": "margin_ext_summary.l90.candidate_programs",
+  "tex": "14",
+  "value": 14
+ },
+ "LnOneSRInc": {
+  "source": "margin_ext_summary.l90.incumbent.success_rate",
+  "tex": "99.4",
+  "value": 99.42857142857143
+ },
+ "LnOneSRRep": {
+  "source": "margin_ext_summary.l90.repaired.success_rate",
+  "tex": "99.9",
+  "value": 99.85714285714286
+ },
+ "LnOneSteps": {
+  "source": "margin_ext_summary.l90.rel_mean_steps_pooled (as LIBERO-Pro)",
+  "tex": "18.0",
+  "value": 18.015619453319143
+ },
+ "LnOneStepsHi": {
+  "source": "margin_ext_summary.l90.task_level.rel_steps.ci95",
+  "tex": "24.4",
+  "value": 24.418710047390306
+ },
+ "LnOneStepsLo": {
+  "source": "margin_ext_summary.l90.task_level.rel_steps.ci95",
+  "tex": "12.0",
+  "value": 12.047260016383905
+ },
+ "LnOneTasks": {
+  "source": "margin_ext_summary.l90.unique_tasks",
+  "tex": "7",
+  "value": 7
+ },
+ "LnOneUSD": {
+  "source": "margin_ext_summary.l90.usd",
+  "tex": "51",
+  "value": 51.18193320000001
+ },
+ "LnOneWorstInc": {
+  "source": "margin_ext_summary.l90.worst_steps_mean",
+  "tex": "846",
+  "value": 846.1428571428571
+ },
+ "LnOneWorstRep": {
+  "source": "margin_ext_summary.l90.worst_steps_mean",
+  "tex": "641",
+  "value": 641.1428571428571
+ },
+ "LnPass": {
+  "source": "ext_racing_risk.l90.repro.passes",
+  "tex": "4,462",
+  "value": 4462
+ },
+ "LnRR": {
+  "source": "ext_racing_risk.l90.risk.risk_ratio",
+  "tex": "3.67",
+  "value": 3.6666666666666665
+ },
+ "LnRaceCands": {
+  "source": "ext_racing_risk.l90.racing",
+  "tex": "161",
+  "value": 161
+ },
+ "LnRaceFR": {
+  "source": "ext_racing_risk.l90.racing",
+  "tex": "0",
+  "value": 0
+ },
+ "LnRaceSave": {
+  "source": "ext_racing_risk.l90.racing",
+  "tex": "57.2",
+  "value": 57.22567287784679
+ },
+ "LnRate": {
+  "source": "ext_racing_risk.l90.repro",
+  "tex": "99.2",
+  "value": 99.15555555555555
+ },
+ "LnTasks": {
+  "source": "ext_racing_risk.l90.repro.tasks",
+  "tex": "90",
+  "value": 90
+ },
+ "LnTrueImp": {
+  "source": "ext_racing_risk.l90.racing",
+  "tex": "59",
+  "value": 59
+ },
+ "LnTwoFaster": {
+  "source": "margin_ext_summary.l90_round2.runs_faster",
+  "tex": "50",
+  "value": 50
+ },
+ "LnTwoHSInc": {
+  "source": "margin_ext_summary.l90_round2.incumbent.kinds",
+  "tex": "4",
+  "value": 4
+ },
+ "LnTwoHSRep": {
+  "source": "margin_ext_summary.l90_round2.repaired.kinds",
+  "tex": "1",
+  "value": 1
+ },
+ "LnTwoProgs": {
+  "source": "margin_ext_summary.l90_round2.candidate_programs",
+  "tex": "50",
+  "value": 50
+ },
+ "LnTwoSRInc": {
+  "source": "margin_ext_summary.l90_round2.incumbent.success_rate",
+  "tex": "99.3",
+  "value": 99.28
+ },
+ "LnTwoSRRep": {
+  "source": "margin_ext_summary.l90_round2.repaired.success_rate",
+  "tex": "99.6",
+  "value": 99.6
+ },
+ "LnTwoSteps": {
+  "source": "margin_ext_summary.l90_round2.rel_mean_steps_pooled (as LIBERO-Pro)",
+  "tex": "18.0",
+  "value": 17.95624771647789
+ },
+ "LnTwoStepsHi": {
+  "source": "margin_ext_summary.l90_round2.task_level.rel_steps.ci95",
+  "tex": "20.8",
+  "value": 20.84309915002128
+ },
+ "LnTwoStepsLo": {
+  "source": "margin_ext_summary.l90_round2.task_level.rel_steps.ci95",
+  "tex": "15.4",
+  "value": 15.412964824396802
+ },
+ "LnTwoTasks": {
+  "source": "margin_ext_summary.l90_round2.unique_tasks",
+  "tex": "25",
+  "value": 25
+ },
+ "LnTwoUSD": {
+  "source": "margin_ext_summary.l90_round2.usd",
+  "tex": "100",
+  "value": 99.71251500000002
+ },
+ "LnTwoWorstInc": {
+  "source": "margin_ext_summary.l90_round2.worst_steps_mean",
+  "tex": "701",
+  "value": 701.08
+ },
+ "LnTwoWorstRep": {
+  "source": "margin_ext_summary.l90_round2.worst_steps_mean",
+  "tex": "571",
+  "value": 571.08
+ },
+ "MatrixTasks": {
+  "source": "expC_summary.complete_matrix_tasks_saturated",
+  "tex": "74",
+  "value": 74
+ },
+ "NonAblCands": {
+  "source": "expB_summary.independent.non_ablation",
+  "tex": "170",
+  "value": 170
+ },
+ "OffDiff": {
+  "source": "official_vs_ours.csv mean diff",
+  "tex": "-0.57",
+  "value": -0.575
+ },
+ "OffDiffHi": {
+  "source": "official_vs_ours_summary.diff_ci95",
+  "tex": "+0.40",
+  "value": 0.4
+ },
+ "OffDiffLo": {
+  "source": "official_vs_ours_summary.diff_ci95",
+  "tex": "-1.73",
+  "value": -1.725
+ },
+ "OffEqualTasks": {
+  "source": "official_vs_ours.csv equal tasks",
+  "tex": "50",
+  "value": 50
+ },
+ "OffNonLong": {
+  "source": "official_vs_ours.csv non-Long official",
+  "tex": "98.87",
+  "value": 98.86666666666666
+ },
+ "OffRate": {
+  "source": "official_vs_ours.csv official w/ evo mean",
+  "tex": "98.75",
+  "value": 98.75
+ },
+ "OffRateNoEvo": {
+  "source": "official_vs_ours.csv official w/o evo mean",
+  "tex": "98.62",
+  "value": 98.625
+ },
+ "OffWithinFour": {
+  "source": "official_vs_ours.csv |diff|<=4",
+  "tex": "69",
+  "value": 69
+ },
+ "OracleFloor": {
+  "source": "expB_summary",
+  "tex": "1,161",
+  "value": 1161
+ },
+ "OrderHeadroomEps": {
+  "source": "derived: random-order racing minus clairvoyant floor",
+  "tex": "99",
+  "value": 99.15000000000009
+ },
+ "OrderHeadroomPct": {
+  "source": "derived: (random - oracle)/full15, all candidates",
+  "tex": "2.2",
+  "value": 2.1743421052631597
+ },
+ "OursNonLong": {
+  "source": "official_vs_ours.csv non-Long ours",
+  "tex": "98.93",
+  "value": 98.93333333333334
+ },
+ "PerfectDecisionPct": {
+  "source": "derived",
+  "tex": "69",
+  "value": 69.07894736842105
+ },
+ "PerfectDecisionPoints": {
+  "source": "expB_summary",
+  "tex": "210",
+  "value": 210
+ },
+ "QFourIncSlack": {
+  "source": "qualitative/index.json Q4 original",
+  "tex": "10",
+  "value": 10
+ },
+ "QFourSeed": {
+  "source": "qualitative/index.json Q4",
+  "tex": "140",
+  "value": 140
+ },
+ "QOneHiFresh": {
+  "source": "qualitative/index.json Q1",
+  "tex": "0/30",
+  "value": "0/30"
+ },
+ "QOneHiMarginPct": {
+  "source": "qualitative/index.json Q1 high-margin program",
+  "tex": "32",
+  "value": 32.099999999999994
+ },
+ "QOneLoFresh": {
+  "source": "qualitative/index.json Q1",
+  "tex": "5/30",
+  "value": "5/30"
+ },
+ "QOneLoSlack": {
+  "source": "qualitative/index.json Q1 low-margin program (dev worst seed)",
+  "tex": "10",
+  "value": 10
+ },
+ "QThreeGain": {
+  "source": "qualitative/index.json Q3 steps original - MARGIN",
+  "tex": "200",
+  "value": 200
+ },
+ "QThreeIncRelease": {
+  "source": "qualitative/index.json Q3 original",
+  "tex": "989",
+  "value": 989
+ },
+ "QThreeRepRelease": {
+  "source": "qualitative/index.json Q3 MARGIN",
+  "tex": "780",
+  "value": 780
+ },
+ "QThreeSeed": {
+  "source": "qualitative/index.json Q3",
+  "tex": "169",
+  "value": 169
+ },
+ "RepBothFaster": {
+  "source": "supp_summary.replicates.D.both_runs_faster",
+  "tex": "36",
+  "value": 36
+ },
+ "RepRho": {
+  "source": "supp_summary.replicates.D.pearson",
+  "tex": "0.76",
+  "value": 0.7599056459859395
+ },
+ "RepTasks": {
+  "source": "supp_summary.replicates.D.tasks",
+  "tex": "37",
+  "value": 37
+ },
+ "ReproN": {
+  "source": "expA_summary.episodes",
+  "tex": "4,000",
+  "value": 4000
+ },
+ "ReproPass": {
+  "source": "expA_summary.passes",
+  "tex": "3,927",
+  "value": 3927
+ },
+ "ReproPerfectTasks": {
+  "source": "expA_summary.tasks_perfect_heldout",
+  "tex": "54",
+  "value": 54
+ },
+ "ReproRate": {
+  "source": "expA_summary.rate",
+  "tex": "98.175",
+  "value": 98.175
+ },
+ "ReproTasks": {
+  "source": "expA_summary.tasks",
+  "tex": "80",
+  "value": 80
+ },
+ "RoEpsA": {
+  "source": "race_online_summary.dev_eps.A",
+  "tex": "876",
+  "value": 876
+ },
+ "RoEpsB": {
+  "source": "race_online_summary.dev_eps.B",
+  "tex": "414",
+  "value": 414
+ },
+ "RoEpsDiff": {
+  "source": "race_online_summary.dev_eps.mean_diff",
+  "tex": "46.2",
+  "value": 46.2
+ },
+ "RoEpsDiffHi": {
+  "source": "race_online_summary.dev_eps.ci95",
+  "tex": "64.2",
+  "value": 64.2
+ },
+ "RoEpsDiffLo": {
+  "source": "race_online_summary.dev_eps.ci95",
+  "tex": "28.8",
+  "value": 28.8
+ },
+ "RoEpsLower": {
+  "source": "race_online_summary.dev_eps.B_lower",
+  "tex": "9",
+  "value": 9
+ },
+ "RoEpsSave": {
+  "source": "race_online_summary.dev_eps.pooled_rel",
+  "tex": "52.7",
+  "value": 52.73972602739726
+ },
+ "RoHeldA": {
+  "source": "race_online_summary.heldout.A",
+  "tex": "477",
+  "value": 477
+ },
+ "RoHeldB": {
+  "source": "race_online_summary.heldout.B",
+  "tex": "469",
+  "value": 469
+ },
+ "RoHeldDiffHi": {
+  "source": "race_online_summary.heldout.ci95",
+  "tex": "0.8",
+  "value": 0.8
+ },
+ "RoHeldDiffLo": {
+  "source": "race_online_summary.heldout.ci95",
+  "tex": "-2.4",
+  "value": -2.4
+ },
+ "RoMinA": {
+  "source": "race_online_summary.worker_min.A (hours)",
+  "tex": "25.9",
+  "value": 25.92972222222222
+ },
+ "RoMinB": {
+  "source": "race_online_summary.worker_min.B (hours)",
+  "tex": "24.6",
+  "value": 24.564166666666665
+ },
+ "RoPostSat": {
+  "source": "race_online_summary.post_saturation_eps_A",
+  "tex": "195",
+  "value": 195
+ },
+ "RoRejects": {
+  "source": "race_online_summary.B_rejections",
+  "tex": "2",
+  "value": 2
+ },
+ "RoTasks": {
+  "source": "race_tasks.json",
+  "tex": "10",
+  "value": 10
+ },
+ "RoUSDA": {
+  "source": "race_online_summary.usd.A",
+  "tex": "114",
+  "value": 113.54691820000002
+ },
+ "RoUSDB": {
+  "source": "race_online_summary.usd.B",
+  "tex": "112",
+  "value": 111.97525719999999
+ },
+ "RoVersA": {
+  "source": "race_online_summary.versions.A",
+  "tex": "59",
+  "value": 59
+ },
+ "RoVersB": {
+  "source": "race_online_summary.versions.B",
+  "tex": "28",
+  "value": 28
+ },
+ "RsDevPerfect": {
+  "source": "robosuite_summary.dev_perfect",
+  "tex": "6",
+  "value": 6
+ },
+ "RsFails": {
+  "source": "robosuite_summary.fails_total",
+  "tex": "5",
+  "value": 5
+ },
+ "RsHighStep": {
+  "source": "robosuite_summary.fail_high_step",
+  "tex": "4",
+  "value": 4
+ },
+ "RsMinMargin": {
+  "source": "robosuite_summary.margin_min",
+  "tex": "0.001",
+  "value": 0.0010000000000000009
+ },
+ "RsMinMarginFails": {
+  "source": "robosuite_tasks.csv lowest-margin task",
+  "tex": "4",
+  "value": 4
+ },
+ "RsMinMarginHighStep": {
+  "source": "robosuite_tasks.csv lowest-margin task",
+  "tex": "4",
+  "value": 4
+ },
+ "RsMinMarginSlow": {
+  "source": "1000*(1-margin_min)",
+  "tex": "999",
+  "value": 999
+ },
+ "RsN": {
+  "source": "robosuite_summary.held_n",
+  "tex": "700",
+  "value": 700
+ },
+ "RsOffFourSix": {
+  "source": "official ASPIRE appendix, Opus 4.6 mean",
+  "tex": "81",
+  "value": 81
+ },
+ "RsOffRate": {
+  "source": "official ASPIRE appendix, Opus 5.5 mean",
+  "tex": "100",
+  "value": 100
+ },
+ "RsPass": {
+  "source": "robosuite_summary.held_pass",
+  "tex": "695",
+  "value": 695
+ },
+ "RsRate": {
+  "source": "robosuite_summary.held_rate",
+  "tex": "99.3",
+  "value": 99.28571428571429
+ },
+ "RsTasks": {
+  "source": "robosuite_summary.tasks",
+  "tex": "7",
+  "value": 7
+ },
+ "RsTasksFull": {
+  "source": "robosuite_summary.tasks_100",
+  "tex": "5",
+  "value": 5
+ },
+ "RsUSD": {
+  "source": "robosuite_summary.agent_usd",
+  "tex": "110",
+  "value": 110.35437760000002
+ },
+ "RsVZeroPerfect": {
+  "source": "robosuite_summary.v00_dev_perfect",
+  "tex": "2",
+  "value": 2
+ },
+ "RsVersions": {
+  "source": "robosuite_summary.versions_swept",
+  "tex": "39",
+  "value": 39
+ },
+ "RxAUC": {
+  "source": "ext_racing_risk.rs.risk.auc",
+  "tex": "0.750",
+  "value": 0.75
+ },
+ "RxAUCHi": {
+  "source": "ext_racing_risk.rs.risk.auc_ci",
+  "tex": "1.000",
+  "value": 1.0
+ },
+ "RxAUCLo": {
+  "source": "ext_racing_risk.rs.risk.auc_ci",
+  "tex": "0.200",
+  "value": 0.2
+ },
+ "RxAZeroRec": {
+  "source": "margin_ext_summary.rs_arms.A0",
+  "tex": "0.87",
+  "value": 0.8749999999999999
+ },
+ "RxAZeroReg": {
+  "source": "margin_ext_summary.rs_arms.A0",
+  "tex": "0.00",
+  "value": 0.0
+ },
+ "RxDevPerfect": {
+  "source": "ext_racing_risk.rs.repro.dev_perfect",
+  "tex": "6",
+  "value": 6
+ },
+ "RxFailHigh": {
+  "source": "ext_racing_risk.rs.risk.fail_rate_high",
+  "tex": "0.25",
+  "value": 0.25
+ },
+ "RxFailLow": {
+  "source": "ext_racing_risk.rs.risk.fail_rate_low",
+  "tex": "2.00",
+  "value": 2.0
+ },
+ "RxFailsAll": {
+  "source": "ext_racing_risk.rs.risk.fails_total",
+  "tex": "5",
+  "value": 5
+ },
+ "RxFailsInLow": {
+  "source": "ext_racing_risk.rs.risk.fails_in_low",
+  "tex": "4",
+  "value": 4
+ },
+ "RxFiveFR": {
+  "source": "ext_racing_risk.rs.racing",
+  "tex": "4",
+  "value": 4
+ },
+ "RxFiveFRPct": {
+  "source": "ext_racing_risk.rs.racing",
+  "tex": "44",
+  "value": 44.44444444444444
+ },
+ "RxN": {
+  "source": "ext_racing_risk.rs.repro.n",
+  "tex": "700",
+  "value": 700
+ },
+ "RxNLow": {
+  "source": "ext_racing_risk.rs.risk.low_margin",
+  "tex": "2",
+  "value": 2
+ },
+ "RxOneFaster": {
+  "source": "margin_ext_summary.rs.runs_faster",
+  "tex": "4",
+  "value": 4
+ },
+ "RxOneHSInc": {
+  "source": "margin_ext_summary.rs.incumbent.kinds",
+  "tex": "4",
+  "value": 4
+ },
+ "RxOneHSRep": {
+  "source": "margin_ext_summary.rs.repaired.kinds",
+  "tex": "2",
+  "value": 2
+ },
+ "RxOneProgs": {
+  "source": "margin_ext_summary.rs.candidate_programs",
+  "tex": "4",
+  "value": 4
+ },
+ "RxOneSRInc": {
+  "source": "margin_ext_summary.rs.incumbent.success_rate",
+  "tex": "98.0",
+  "value": 98.0
+ },
+ "RxOneSRRep": {
+  "source": "margin_ext_summary.rs.repaired.success_rate",
+  "tex": "99.5",
+  "value": 99.5
+ },
+ "RxOneSteps": {
+  "source": "margin_ext_summary.rs.rel_mean_steps_pooled (as LIBERO-Pro)",
+  "tex": "20.0",
+  "value": 19.953305498062747
+ },
+ "RxOneStepsHi": {
+  "source": "margin_ext_summary.rs.task_level.rel_steps.ci95",
+  "tex": "30.5",
+  "value": 30.502465489650156
+ },
+ "RxOneStepsLo": {
+  "source": "margin_ext_summary.rs.task_level.rel_steps.ci95",
+  "tex": "7.0",
+  "value": 7.0360044607296395
+ },
+ "RxOneTasks": {
+  "source": "margin_ext_summary.rs.unique_tasks",
+  "tex": "2",
+  "value": 2
+ },
+ "RxOneUSD": {
+  "source": "margin_ext_summary.rs.usd",
+  "tex": "15",
+  "value": 14.8053314
+ },
+ "RxOneWorstInc": {
+  "source": "margin_ext_summary.rs.worst_steps_mean",
+  "tex": "952",
+  "value": 952.5
+ },
+ "RxOneWorstRep": {
+  "source": "margin_ext_summary.rs.worst_steps_mean",
+  "tex": "820",
+  "value": 819.5
+ },
+ "RxPass": {
+  "source": "ext_racing_risk.rs.repro.passes",
+  "tex": "695",
+  "value": 695
+ },
+ "RxRR": {
+  "source": "ext_racing_risk.rs.risk.risk_ratio",
+  "tex": "8.00",
+  "value": 8.0
+ },
+ "RxRaceCands": {
+  "source": "ext_racing_risk.rs.racing",
+  "tex": "22",
+  "value": 22
+ },
+ "RxRaceFR": {
+  "source": "ext_racing_risk.rs.racing",
+  "tex": "0",
+  "value": 0
+ },
+ "RxRaceSave": {
+  "source": "ext_racing_risk.rs.racing",
+  "tex": "57.1",
+  "value": 57.09090909090909
+ },
+ "RxRate": {
+  "source": "ext_racing_risk.rs.repro",
+  "tex": "99.3",
+  "value": 99.28571428571429
+ },
+ "RxTasks": {
+  "source": "ext_racing_risk.rs.repro.tasks",
+  "tex": "7",
+  "value": 7
+ },
+ "RxTrueImp": {
+  "source": "ext_racing_risk.rs.racing",
+  "tex": "9",
+  "value": 9
+ },
+ "RxTwoFaster": {
+  "source": "margin_ext_summary.rs_round2.runs_faster",
+  "tex": "8",
+  "value": 8
+ },
+ "RxTwoHSInc": {
+  "source": "margin_ext_summary.rs_round2.incumbent.kinds",
+  "tex": "3",
+  "value": 3
+ },
+ "RxTwoHSRep": {
+  "source": "margin_ext_summary.rs_round2.repaired.kinds",
+  "tex": "0",
+  "value": 0
+ },
+ "RxTwoProgs": {
+  "source": "margin_ext_summary.rs_round2.candidate_programs",
+  "tex": "8",
+  "value": 8
+ },
+ "RxTwoSRInc": {
+  "source": "margin_ext_summary.rs_round2.incumbent.success_rate",
+  "tex": "98.8",
+  "value": 98.75
+ },
+ "RxTwoSRRep": {
+  "source": "margin_ext_summary.rs_round2.repaired.success_rate",
+  "tex": "99.6",
+  "value": 99.625
+ },
+ "RxTwoSteps": {
+  "source": "margin_ext_summary.rs_round2.rel_mean_steps_pooled (as LIBERO-Pro)",
+  "tex": "18.4",
+  "value": 18.410566438717304
+ },
+ "RxTwoStepsHi": {
+  "source": "margin_ext_summary.rs_round2.task_level.rel_steps.ci95",
+  "tex": "26.3",
+  "value": 26.349796969961986
+ },
+ "RxTwoStepsLo": {
+  "source": "margin_ext_summary.rs_round2.task_level.rel_steps.ci95",
+  "tex": "9.8",
+  "value": 9.81969116803056
+ },
+ "RxTwoTasks": {
+  "source": "margin_ext_summary.rs_round2.unique_tasks",
+  "tex": "4",
+  "value": 4
+ },
+ "RxTwoUSD": {
+  "source": "margin_ext_summary.rs_round2.usd",
+  "tex": "8",
+  "value": 8.460485600000002
+ },
+ "RxTwoWorstInc": {
+  "source": "margin_ext_summary.rs_round2.worst_steps_mean",
+  "tex": "830",
+  "value": 829.5
+ },
+ "RxTwoWorstRep": {
+  "source": "margin_ext_summary.rs_round2.worst_steps_mean",
+  "tex": "638",
+  "value": 637.5
+ },
+ "SatTasks": {
+  "source": "expC_summary.dev_saturated_tasks (of 80)",
+  "tex": "78",
+  "value": 78
+ },
+ "SatTasksMatrix": {
+  "source": "expC_summary.complete_matrix_tasks_saturated (72/74)",
+  "tex": "72",
+  "value": 72
+ },
+ "SatTasksWithFail": {
+  "source": "expC_summary",
+  "tex": "24",
+  "value": 24
+ },
+ "SaveRace": {
+  "source": "independent",
+  "tex": "53.5",
+  "value": 53.490196078431374
+ },
+ "SaveRaceVsSoP": {
+  "source": "derived",
+  "tex": "15.0",
+  "value": 14.982078853046598
+ },
+ "SaveSoP": {
+  "source": "independent",
+  "tex": "45.3",
+  "value": 45.29411764705882
+ },
+ "SkillRefuted": {
+  "source": "expA_summary.skill_verification",
+  "tex": "3",
+  "value": 3
+ },
+ "SkillVerified": {
+  "source": "expA_summary.skill_verification",
+  "tex": "72",
+  "value": 72
+ },
+ "SuiteMaxRate": {
+  "source": "expA_summary.suites",
+  "tex": "100",
+  "value": 100.0
+ },
+ "SuiteMinRate": {
+  "source": "expA_summary.suites",
+  "tex": "93.8",
+  "value": 93.8
+ },
+ "TbBudgetInc": {
+  "source": "expD_summary.phase3b.kind_rates",
+  "tex": "3.3",
+  "value": 3.3333333333333335
+ },
+ "TbBudgetRep": {
+  "source": "",
+  "tex": "0.8",
+  "value": 0.8
+ },
+ "TbCands": {
+  "source": "expD_summary.phase3b",
+  "tex": "30",
+  "value": 30
+ },
+ "TbConvBudget": {
+  "source": "expD_summary.phase3b.transitions",
+  "tex": "13",
+  "value": 13
+ },
+ "TbDFail": {
+  "source": "expD_summary.phase3b.task_level.d_fail",
+  "tex": "-0.80",
+  "value": -0.8
+ },
+ "TbDFailHi": {
+  "source": "",
+  "tex": "+0.87",
+  "value": 0.8666666666666666
+ },
+ "TbDFailLo": {
+  "source": "",
+  "tex": "-3.27",
+  "value": -3.266666666666666
+ },
+ "TbFaster": {
+  "source": "expD_summary.phase3b.runs_faster",
+  "tex": "30",
+  "value": 30
+ },
+ "TbHighStep": {
+  "source": "expD_summary.phase3b.{incumbent,repaired}.high_step_failures",
+  "tex": "37",
+  "value": 37
+ },
+ "TbHighStepCap": {
+  "source": "expD_summary.phase3b high_step_failures_hit_cap",
+  "tex": "30",
+  "value": 30
+ },
+ "TbIncompInc": {
+  "source": "",
+  "tex": "2.7",
+  "value": 2.666666666666667
+ },
+ "TbIncompRep": {
+  "source": "",
+  "tex": "4.4",
+  "value": 4.3999999999999995
+ },
+ "TbMarginUp": {
+  "source": "",
+  "tex": "24",
+  "value": 24
+ },
+ "TbMedInc": {
+  "source": "expD_summary.phase3b",
+  "tex": "763",
+  "value": 763.0
+ },
+ "TbMedRep": {
+  "source": "expD_summary.phase3b",
+  "tex": "690",
+  "value": 690.0
+ },
+ "TbPNinetyInc": {
+  "source": "expD_summary.phase3b",
+  "tex": "891",
+  "value": 891
+ },
+ "TbPNinetyRep": {
+  "source": "expD_summary.phase3b",
+  "tex": "788",
+  "value": 788
+ },
+ "TbRec": {
+  "source": "",
+  "tex": "34",
+  "value": 34
+ },
+ "TbRecFromBudget": {
+  "source": "expD_summary.phase3b.transitions",
+  "tex": "25",
+  "value": 25
+ },
+ "TbReg": {
+  "source": "",
+  "tex": "22",
+  "value": 22
+ },
+ "TbRelStepsHi": {
+  "source": "task-level",
+  "tex": "12.2",
+  "value": 12.22491796498324
+ },
+ "TbRelStepsLo": {
+  "source": "task-level",
+  "tex": "9.3",
+  "value": 9.319529042280601
+ },
+ "TbSRInc": {
+  "source": "expD_summary.phase3b",
+  "tex": "94.0",
+  "value": 94.0
+ },
+ "TbSRRep": {
+  "source": "expD_summary.phase3b",
+  "tex": "94.8",
+  "value": 94.8
+ },
+ "TbStepsInc": {
+  "source": "expD_summary.phase3b.incumbent.mean_steps",
+  "tex": "776",
+  "value": 775.596
+ },
+ "TbStepsRel": {
+  "source": "expD_summary.phase3b.rel_mean_steps_pooled",
+  "tex": "10.7",
+  "value": 10.69216447738256
+ },
+ "TbStepsRep": {
+  "source": "expD_summary.phase3b.repaired.mean_steps",
+  "tex": "693",
+  "value": 692.668
+ },
+ "TbTasks": {
+  "source": "expD_summary.phase3b",
+  "tex": "15",
+  "value": 15
+ },
+ "TbWallInc": {
+  "source": "expD_summary.phase3b.incumbent.median_wall_s",
+  "tex": "90",
+  "value": 90.415
+ },
+ "TbWallRep": {
+  "source": "expD_summary.phase3b.repaired.median_wall_s",
+  "tex": "92",
+  "value": 91.672
+ },
+ "TbWorstInc": {
+  "source": "expD_summary.phase3b",
+  "tex": "902",
+  "value": 901.9333333333333
+ },
+ "TbWorstRep": {
+  "source": "expD_summary.phase3b",
+  "tex": "809",
+  "value": 809.4666666666667
+ },
+ "TrajAccFortyFivePct": {
+  "source": "supp_summary.trajectory_grid[45]",
+  "tex": "95",
+  "value": 94.5945945945946
+ },
+ "TrajAccThirtyPct": {
+  "source": "supp_summary.trajectory_grid[30]",
+  "tex": "77",
+  "value": 77.02702702702703
+ },
+ "TrajGainFinal": {
+  "source": "supp_summary.trajectory_grid[105].median_gain",
+  "tex": "0.121",
+  "value": 0.121
+ },
+ "TrajGainThirty": {
+  "source": "supp_summary.trajectory_grid[30].median_gain",
+  "tex": "0.085",
+  "value": 0.08549999999999999
+ },
+ "TrajSessions": {
+  "source": "supp_summary.trajectory_sessions",
+  "tex": "74",
+  "value": 74
+ },
+ "TrueImprovers": {
+  "source": "expB_summary.true_improvers",
+  "tex": "62",
+  "value": 62
+ },
+ "UnionTasks": {
+  "source": "expD_summary.unique_tasks_union",
+  "tex": "37",
+  "value": 37
+ },
+ "WallFull": {
+  "source": "independent (episode wall-clock hours)",
+  "tex": "43.2",
+  "value": 43.2356375
+ },
+ "WallRace": {
+  "source": "independent",
+  "tex": "22.4",
+  "value": 22.4187975
+ }
+}

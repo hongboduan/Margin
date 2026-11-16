@@ -1,0 +1,1577 @@
+{
+ "l90": {
+  "accepted_runs": 14,
+  "candidate_programs": 14,
+  "dev_episodes": 425,
+  "incumbent": {
+   "episodes": 350,
+   "high_step_failures": 2,
+   "high_step_failures_hit_cap": 2,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.005714285714285714,
+    "WITHIN_BUDGET_INCOMPLETE": 0.0
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 2,
+    "SUCCESS": 348,
+    "WITHIN_BUDGET_INCOMPLETE": 0
+   },
+   "mean_steps": 756.5657142857143,
+   "mean_steps_success": 755.2241379310345,
+   "median_steps": 747.0,
+   "median_wall_s": 292.03200000000004,
+   "near_limit_frac": 0.005714285714285714,
+   "p90_steps": 828,
+   "success_rate": 0.9942857142857143
+  },
+  "label": "l90",
+  "median_rel_steps_per_run": -0.15393407767803435,
+  "recoveries": 4,
+  "regressions": 1,
+  "rel_mean_steps_pooled": -0.18015619453319143,
+  "repaired": {
+   "episodes": 700,
+   "high_step_failures": 0,
+   "high_step_failures_hit_cap": 0,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.0,
+    "WITHIN_BUDGET_INCOMPLETE": 0.0014285714285714286
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 0,
+    "SUCCESS": 699,
+    "WITHIN_BUDGET_INCOMPLETE": 1
+   },
+   "mean_steps": 620.2657142857142,
+   "mean_steps_success": 621.1530758226037,
+   "median_steps": 619.0,
+   "median_wall_s": 261.1015,
+   "near_limit_frac": 0.0,
+   "p90_steps": 693,
+   "success_rate": 0.9985714285714286
+  },
+  "runs_eval_margin_up": 14,
+  "runs_faster": 14,
+  "sessions": 14,
+  "task_level": {
+   "d_eval_min_margin": {
+    "ci95": [
+     0.14364285714285718,
+     0.26835714285714285
+    ],
+    "mean": 0.20500000000000002
+   },
+   "d_fail": {
+    "ci95": [
+     -0.01,
+     0.0
+    ],
+    "mean": -0.004285714285714286
+   },
+   "d_worst_steps": {
+    "ci95": [
+     -268.35714285714283,
+     -143.64285714285714
+    ],
+    "mean": -205.0
+   },
+   "rel_steps": {
+    "ci95": [
+     -0.24418710047390307,
+     -0.12047260016383905
+    ],
+    "mean": -0.17727015741939708
+   }
+  },
+  "tasks_fail_better_worse_tie": [
+   2,
+   0,
+   5
+  ],
+  "transitions": {
+   "STEP_BUDGET_EXHAUSTED->SUCCESS": 4,
+   "SUCCESS->SUCCESS": 695,
+   "SUCCESS->WITHIN_BUDGET_INCOMPLETE": 1
+  },
+  "unique_tasks": 7,
+  "usd": 51.18193320000001,
+  "violations": 2,
+  "worst_steps_mean": {
+   "cand": 641.1428571428571,
+   "inc": 846.1428571428571
+  }
+ },
+ "l90_arms": {
+  "G_noninferior": true,
+  "P_supported": false,
+  "S2_A1_vs_A1r_regression": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "arms": {
+   "A0": {
+    "fail": [
+     0.004,
+     [
+      0.0012,
+      0.008
+     ]
+    ],
+    "recovery": [
+     0.0064,
+     [
+      0.0016,
+      0.0128
+     ]
+    ],
+    "regression": [
+     0.0032,
+     [
+      0.0012,
+      0.005600000000000001
+     ]
+    ],
+    "steps": [
+     503.0004,
+     [
+      465.9292,
+      542.248
+     ]
+    ]
+   },
+   "A1": {
+    "fail": [
+     0.004,
+     [
+      0.0012,
+      0.008
+     ]
+    ],
+    "recovery": [
+     0.0064,
+     [
+      0.0016,
+      0.0128
+     ]
+    ],
+    "regression": [
+     0.0032,
+     [
+      0.0012,
+      0.005600000000000001
+     ]
+    ],
+    "steps": [
+     503.0004,
+     [
+      465.9292,
+      542.248
+     ]
+    ]
+   },
+   "A1all": {
+    "fail": [
+     0.004,
+     [
+      0.0012,
+      0.008
+     ]
+    ],
+    "recovery": [
+     0.0064,
+     [
+      0.0016,
+      0.0128
+     ]
+    ],
+    "regression": [
+     0.0032,
+     [
+      0.0012,
+      0.005600000000000001
+     ]
+    ],
+    "steps": [
+     503.0004,
+     [
+      465.9292,
+      542.248
+     ]
+    ]
+   },
+   "A1r": {
+    "fail": [
+     0.004,
+     [
+      0.0012,
+      0.008
+     ]
+    ],
+    "recovery": [
+     0.0064,
+     [
+      0.0016,
+      0.0128
+     ]
+    ],
+    "regression": [
+     0.0032,
+     [
+      0.0012,
+      0.005600000000000001
+     ]
+    ],
+    "steps": [
+     503.0004,
+     [
+      465.9292,
+      542.248
+     ]
+    ]
+   },
+   "A2": {
+    "fail": [
+     0.006,
+     [
+      0.0012,
+      0.0124
+     ]
+    ],
+    "recovery": [
+     0.004,
+     [
+      0.0008,
+      0.008
+     ]
+    ],
+    "regression": [
+     0.0028000000000000004,
+     [
+      0.0008,
+      0.005600000000000001
+     ]
+    ],
+    "steps": [
+     506.2832,
+     [
+      466.912,
+      548.536
+     ]
+    ]
+   },
+   "A3": {
+    "fail": [
+     0.004,
+     [
+      0.0012,
+      0.008
+     ]
+    ],
+    "recovery": [
+     0.0064,
+     [
+      0.0016,
+      0.0128
+     ]
+    ],
+    "regression": [
+     0.0032,
+     [
+      0.0012,
+      0.005600000000000001
+     ]
+    ],
+    "steps": [
+     503.0004,
+     [
+      465.9292,
+      542.248
+     ]
+    ]
+   },
+   "S": {
+    "fail": [
+     0.0072,
+     [
+      0.0016,
+      0.013600000000000001
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     613.0880000000001,
+     [
+      574.3192,
+      655.4256
+     ]
+    ]
+   }
+  },
+  "cost": {
+   "A0": {
+    "probe_episodes": 0,
+    "vlm_calls": 0
+   },
+   "A1": {
+    "probe_episodes": 440,
+    "vlm_calls": 0
+   },
+   "A1all": {
+    "probe_episodes": 2000,
+    "vlm_calls": 0
+   },
+   "A1r": {
+    "probe_episodes": 440,
+    "vlm_calls": 0
+   },
+   "A2": {
+    "probe_episodes": 0,
+    "vlm_calls": 11
+   },
+   "A3": {
+    "probe_episodes": 160,
+    "vlm_calls": 11
+   },
+   "S": {
+    "probe_episodes": 0,
+    "vlm_calls": 0
+   }
+  },
+  "deltas_vs_A0": {
+   "A1": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "A1all": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "A1r": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "A2": {
+    "fail": [
+     0.002,
+     [
+      -0.0012,
+      0.0072
+     ]
+    ],
+    "recovery": [
+     -0.0024,
+     [
+      -0.0072,
+      0.0
+     ]
+    ],
+    "regression": [
+     -0.0004,
+     [
+      -0.0012,
+      0.0
+     ]
+    ],
+    "steps": [
+     3.2827999999999973,
+     [
+      0.0,
+      8.779199999999996
+     ]
+    ]
+   },
+   "A3": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "S": {
+    "fail": [
+     0.0032,
+     [
+      -0.0012000000000000001,
+      0.0096
+     ]
+    ],
+    "recovery": [
+     -0.0064,
+     [
+      -0.0128,
+      -0.0016
+     ]
+    ],
+    "regression": [
+     -0.0032,
+     [
+      -0.005600000000000001,
+      -0.0012
+     ]
+    ],
+    "steps": [
+     110.08760000000001,
+     [
+      92.81159999999996,
+      131.13840000000002
+     ]
+    ]
+   }
+  },
+  "n_tasks": 25,
+  "subset": "all"
+ },
+ "l90_round2": {
+  "candidate_programs": 50,
+  "incumbent": {
+   "episodes": 1250,
+   "high_step_failures": 4,
+   "high_step_failures_hit_cap": 4,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.0032,
+    "WITHIN_BUDGET_INCOMPLETE": 0.004
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 4,
+    "SUCCESS": 1241,
+    "WITHIN_BUDGET_INCOMPLETE": 5
+   },
+   "mean_steps": 613.088,
+   "mean_steps_success": 612.0878323932312,
+   "median_steps": 611.0,
+   "median_wall_s": 126.395,
+   "near_limit_frac": 0.0032,
+   "p90_steps": 788,
+   "success_rate": 0.9928
+  },
+  "label": "l90_r2",
+  "median_rel_steps_per_run": -0.17177642160726214,
+  "new_tasks": {
+   "candidate_programs": 36,
+   "incumbent": {
+    "episodes": 900,
+    "high_step_failures": 0,
+    "high_step_failures_hit_cap": 0,
+    "kind_rates": {
+     "STEP_BUDGET_EXHAUSTED": 0.0,
+     "WITHIN_BUDGET_INCOMPLETE": 0.0044444444444444444
+    },
+    "kinds": {
+     "STEP_BUDGET_EXHAUSTED": 0,
+     "SUCCESS": 896,
+     "WITHIN_BUDGET_INCOMPLETE": 4
+    },
+    "mean_steps": 557.0822222222222,
+    "mean_steps_success": 557.0267857142857,
+    "median_steps": 557.5,
+    "median_wall_s": 118.634,
+    "near_limit_frac": 0.0,
+    "p90_steps": 649,
+    "success_rate": 0.9955555555555555
+   },
+   "label": "l90_r2_new",
+   "median_rel_steps_per_run": -0.18201310140288107,
+   "recoveries": 8,
+   "regressions": 6,
+   "rel_mean_steps_pooled": -0.1782302233462444,
+   "repaired": {
+    "episodes": 1800,
+    "high_step_failures": 1,
+    "high_step_failures_hit_cap": 1,
+    "kind_rates": {
+     "STEP_BUDGET_EXHAUSTED": 0.0005555555555555556,
+     "WITHIN_BUDGET_INCOMPLETE": 0.002777777777777778
+    },
+    "kinds": {
+     "STEP_BUDGET_EXHAUSTED": 1,
+     "SUCCESS": 1794,
+     "WITHIN_BUDGET_INCOMPLETE": 5
+    },
+    "mean_steps": 457.79333333333335,
+    "mean_steps_success": 457.3924191750279,
+    "median_steps": 469.0,
+    "median_wall_s": 105.8455,
+    "near_limit_frac": 0.0005555555555555556,
+    "p90_steps": 568,
+    "success_rate": 0.9966666666666667
+   },
+   "runs_eval_margin_up": 34,
+   "runs_faster": 36,
+   "task_level": {
+    "d_eval_min_margin": {
+     "ci95": [
+      0.07311111111111111,
+      0.14694444444444443
+     ],
+     "mean": 0.11222222222222222
+    },
+    "d_fail": {
+     "ci95": [
+      -0.006111111111111111,
+      0.002777777777777778
+     ],
+     "mean": -0.001111111111111111
+    },
+    "d_worst_steps": {
+     "ci95": [
+      -146.94444444444446,
+      -73.11111111111111
+     ],
+     "mean": -112.22222222222223
+    },
+    "rel_steps": {
+     "ci95": [
+      -0.21032564822924796,
+      -0.1514228198303006
+     ],
+     "mean": -0.1807235950034763
+    }
+   },
+   "tasks_fail_better_worse_tie": [
+    2,
+    3,
+    13
+   ],
+   "transitions": {
+    "SUCCESS->STEP_BUDGET_EXHAUSTED": 1,
+    "SUCCESS->SUCCESS": 1786,
+    "SUCCESS->WITHIN_BUDGET_INCOMPLETE": 5,
+    "WITHIN_BUDGET_INCOMPLETE->SUCCESS": 8
+   },
+   "unique_tasks": 18,
+   "worst_steps_mean": {
+    "cand": 530.3888888888889,
+    "inc": 642.6111111111111
+   }
+  },
+  "recoveries": 16,
+  "regressions": 8,
+  "rel_mean_steps_pooled": -0.1795624771647789,
+  "repaired": {
+   "episodes": 2500,
+   "high_step_failures": 1,
+   "high_step_failures_hit_cap": 1,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.0004,
+    "WITHIN_BUDGET_INCOMPLETE": 0.0036
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 1,
+    "SUCCESS": 2490,
+    "WITHIN_BUDGET_INCOMPLETE": 9
+   },
+   "mean_steps": 503.0004,
+   "mean_steps_success": 503.1827309236948,
+   "median_steps": 491.0,
+   "median_wall_s": 115.0975,
+   "near_limit_frac": 0.0004,
+   "p90_steps": 651,
+   "success_rate": 0.996
+  },
+  "runs_eval_margin_up": 48,
+  "runs_faster": 50,
+  "sessions": 36,
+  "task_level": {
+   "d_eval_min_margin": {
+    "ci95": [
+     0.09603999999999999,
+     0.16126000000000001
+    ],
+    "mean": 0.13
+   },
+   "d_fail": {
+    "ci95": [
+     -0.0092,
+     0.0012000000000000001
+    ],
+    "mean": -0.0032
+   },
+   "d_worst_steps": {
+    "ci95": [
+     -161.26,
+     -96.04
+    ],
+    "mean": -130.0
+   },
+   "rel_steps": {
+    "ci95": [
+     -0.20843099150021283,
+     -0.15412964824396802
+    ],
+    "mean": -0.18035478782708037
+   }
+  },
+  "tasks_fail_better_worse_tie": [
+   3,
+   3,
+   19
+  ],
+  "transitions": {
+   "STEP_BUDGET_EXHAUSTED->SUCCESS": 8,
+   "SUCCESS->STEP_BUDGET_EXHAUSTED": 1,
+   "SUCCESS->SUCCESS": 2474,
+   "SUCCESS->WITHIN_BUDGET_INCOMPLETE": 7,
+   "WITHIN_BUDGET_INCOMPLETE->SUCCESS": 8,
+   "WITHIN_BUDGET_INCOMPLETE->WITHIN_BUDGET_INCOMPLETE": 2
+  },
+  "unique_tasks": 25,
+  "usd": 99.71251500000002,
+  "violations": 0,
+  "worst_steps_mean": {
+   "cand": 571.08,
+   "inc": 701.08
+  }
+ },
+ "pooled": {
+  "candidate_programs": 18,
+  "incumbent": {
+   "episodes": 550,
+   "high_step_failures": 6,
+   "high_step_failures_hit_cap": 2,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.01090909090909091,
+    "WITHIN_BUDGET_INCOMPLETE": 0.0
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 6,
+    "SUCCESS": 544,
+    "WITHIN_BUDGET_INCOMPLETE": 0
+   },
+   "mean_steps": 735.3254545454546,
+   "mean_steps_success": 732.4430147058823,
+   "median_steps": 743.5,
+   "median_wall_s": 270.716,
+   "near_limit_frac": 0.016363636363636365,
+   "p90_steps": 829,
+   "success_rate": 0.9890909090909091
+  },
+  "label": "pooled",
+  "median_rel_steps_per_run": -0.15393407767803435,
+  "recoveries": 10,
+  "regressions": 1,
+  "rel_mean_steps_pooled": -0.18684614604788496,
+  "repaired": {
+   "episodes": 1100,
+   "high_step_failures": 2,
+   "high_step_failures_hit_cap": 0,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.0018181818181818182,
+    "WITHIN_BUDGET_INCOMPLETE": 0.0009090909090909091
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 2,
+    "SUCCESS": 1097,
+    "WITHIN_BUDGET_INCOMPLETE": 1
+   },
+   "mean_steps": 597.9327272727272,
+   "mean_steps_success": 597.7447584320876,
+   "median_steps": 606.0,
+   "median_wall_s": 235.484,
+   "near_limit_frac": 0.0036363636363636364,
+   "p90_steps": 696,
+   "success_rate": 0.9972727272727273
+  },
+  "runs_eval_margin_up": 17,
+  "runs_faster": 18,
+  "task_level": {
+   "d_eval_min_margin": {
+    "ci95": [
+     0.12344444444444447,
+     0.2529444444444444
+    ],
+    "mean": 0.189
+   },
+   "d_fail": {
+    "ci95": [
+     -0.014444444444444446,
+     -0.0011111111111111111
+    ],
+    "mean": -0.006666666666666666
+   },
+   "d_worst_steps": {
+    "ci95": [
+     -252.94444444444446,
+     -123.44444444444444
+    ],
+    "mean": -189.0
+   },
+   "rel_steps": {
+    "ci95": [
+     -0.24239295902327745,
+     -0.12321752657416078
+    ],
+    "mean": -0.17958620015995305
+   }
+  },
+  "tasks_fail_better_worse_tie": [
+   3,
+   0,
+   6
+  ],
+  "transitions": {
+   "STEP_BUDGET_EXHAUSTED->STEP_BUDGET_EXHAUSTED": 2,
+   "STEP_BUDGET_EXHAUSTED->SUCCESS": 10,
+   "SUCCESS->SUCCESS": 1087,
+   "SUCCESS->WITHIN_BUDGET_INCOMPLETE": 1
+  },
+  "unique_tasks": 9,
+  "worst_steps_mean": {
+   "cand": 680.7777777777778,
+   "inc": 869.7777777777778
+  }
+ },
+ "rs": {
+  "accepted_runs": 4,
+  "candidate_programs": 4,
+  "dev_episodes": 177,
+  "incumbent": {
+   "episodes": 200,
+   "high_step_failures": 4,
+   "high_step_failures_hit_cap": 0,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.02,
+    "WITHIN_BUDGET_INCOMPLETE": 0.0
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 4,
+    "SUCCESS": 196,
+    "WITHIN_BUDGET_INCOMPLETE": 0
+   },
+   "mean_steps": 698.155,
+   "mean_steps_success": 691.9948979591836,
+   "median_steps": 723.0,
+   "median_wall_s": 109.2645,
+   "near_limit_frac": 0.035,
+   "p90_steps": 876,
+   "success_rate": 0.98
+  },
+  "label": "rs",
+  "median_rel_steps_per_run": -0.17224359070036527,
+  "recoveries": 6,
+  "regressions": 0,
+  "rel_mean_steps_pooled": -0.19953305498062746,
+  "repaired": {
+   "episodes": 400,
+   "high_step_failures": 2,
+   "high_step_failures_hit_cap": 0,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.005,
+    "WITHIN_BUDGET_INCOMPLETE": 0.0
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 2,
+    "SUCCESS": 398,
+    "WITHIN_BUDGET_INCOMPLETE": 0
+   },
+   "mean_steps": 558.85,
+   "mean_steps_success": 556.6331658291457,
+   "median_steps": 544.5,
+   "median_wall_s": 114.68549999999999,
+   "near_limit_frac": 0.01,
+   "p90_steps": 723,
+   "success_rate": 0.995
+  },
+  "runs_eval_margin_up": 3,
+  "runs_faster": 4,
+  "sessions": 4,
+  "task_level": {
+   "d_eval_min_margin": {
+    "ci95": [
+     0.013000000000000012,
+     0.25300000000000006
+    ],
+    "mean": 0.13300000000000003
+   },
+   "d_fail": {
+    "ci95": [
+     -0.03,
+     0.0
+    ],
+    "mean": -0.015
+   },
+   "d_worst_steps": {
+    "ci95": [
+     -253.0,
+     -13.0
+    ],
+    "mean": -133.0
+   },
+   "rel_steps": {
+    "ci95": [
+     -0.30502465489650155,
+     -0.07036004460729639
+    ],
+    "mean": -0.18769234975189897
+   }
+  },
+  "tasks_fail_better_worse_tie": [
+   1,
+   0,
+   1
+  ],
+  "transitions": {
+   "STEP_BUDGET_EXHAUSTED->STEP_BUDGET_EXHAUSTED": 2,
+   "STEP_BUDGET_EXHAUSTED->SUCCESS": 6,
+   "SUCCESS->SUCCESS": 392
+  },
+  "unique_tasks": 2,
+  "usd": 14.8053314,
+  "violations": 0,
+  "worst_steps_mean": {
+   "cand": 819.5,
+   "inc": 952.5
+  }
+ },
+ "rs_arms": {
+  "G_noninferior": true,
+  "P_supported": false,
+  "S2_A1_vs_A1r_regression": [
+   0.0,
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "arms": {
+   "A0": {
+    "fail": [
+     0.00375,
+     [
+      0.0,
+      0.01125
+     ]
+    ],
+    "recovery": [
+     0.008749999999999999,
+     [
+      0.0,
+      0.0225
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     506.76625,
+     [
+      378.23875000000004,
+      588.76
+     ]
+    ]
+   },
+   "A1": {
+    "fail": [
+     0.00375,
+     [
+      0.0,
+      0.01125
+     ]
+    ],
+    "recovery": [
+     0.008749999999999999,
+     [
+      0.0,
+      0.0225
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     506.76625,
+     [
+      378.23875000000004,
+      588.76
+     ]
+    ]
+   },
+   "A1all": {
+    "fail": [
+     0.00375,
+     [
+      0.0,
+      0.01125
+     ]
+    ],
+    "recovery": [
+     0.008749999999999999,
+     [
+      0.0,
+      0.0225
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     506.76625,
+     [
+      378.23875000000004,
+      588.76
+     ]
+    ]
+   },
+   "A1r": {
+    "fail": [
+     0.00375,
+     [
+      0.0,
+      0.01125
+     ]
+    ],
+    "recovery": [
+     0.008749999999999999,
+     [
+      0.0,
+      0.0225
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     506.76625,
+     [
+      378.23875000000004,
+      588.76
+     ]
+    ]
+   },
+   "A2": {
+    "fail": [
+     0.00375,
+     [
+      0.0,
+      0.01125
+     ]
+    ],
+    "recovery": [
+     0.008749999999999999,
+     [
+      0.0,
+      0.0225
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     506.76625,
+     [
+      378.23875000000004,
+      588.76
+     ]
+    ]
+   },
+   "A3": {
+    "fail": [
+     0.00375,
+     [
+      0.0,
+      0.01125
+     ]
+    ],
+    "recovery": [
+     0.008749999999999999,
+     [
+      0.0,
+      0.0225
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     506.76625,
+     [
+      378.23875000000004,
+      588.76
+     ]
+    ]
+   },
+   "S": {
+    "fail": [
+     0.0125,
+     [
+      0.0,
+      0.025
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     621.1175,
+     [
+      471.03,
+      735.8
+     ]
+    ]
+   }
+  },
+  "cost": {
+   "A0": {
+    "probe_episodes": 0,
+    "vlm_calls": 0
+   },
+   "A1": {
+    "probe_episodes": 240,
+    "vlm_calls": 0
+   },
+   "A1all": {
+    "probe_episodes": 320,
+    "vlm_calls": 0
+   },
+   "A1r": {
+    "probe_episodes": 240,
+    "vlm_calls": 0
+   },
+   "A2": {
+    "probe_episodes": 0,
+    "vlm_calls": 6
+   },
+   "A3": {
+    "probe_episodes": 120,
+    "vlm_calls": 6
+   },
+   "S": {
+    "probe_episodes": 0,
+    "vlm_calls": 0
+   }
+  },
+  "deltas_vs_A0": {
+   "A1": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "A1all": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "A1r": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "A2": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "A3": {
+    "fail": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "recovery": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "S": {
+    "fail": [
+     0.00875,
+     [
+      0.0,
+      0.0225
+     ]
+    ],
+    "recovery": [
+     -0.008749999999999999,
+     [
+      -0.0225,
+      0.0
+     ]
+    ],
+    "regression": [
+     0.0,
+     [
+      0.0,
+      0.0
+     ]
+    ],
+    "steps": [
+     114.35124999999998,
+     [
+      53.307499999999976,
+      196.33874999999995
+     ]
+    ]
+   }
+  },
+  "n_tasks": 4,
+  "subset": "all"
+ },
+ "rs_round2": {
+  "candidate_programs": 8,
+  "incumbent": {
+   "episodes": 400,
+   "high_step_failures": 3,
+   "high_step_failures_hit_cap": 0,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.0075,
+    "WITHIN_BUDGET_INCOMPLETE": 0.005
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 3,
+    "SUCCESS": 395,
+    "WITHIN_BUDGET_INCOMPLETE": 2
+   },
+   "mean_steps": 621.1175,
+   "mean_steps_success": 619.5949367088608,
+   "median_steps": 670.5,
+   "median_wall_s": 157.031,
+   "near_limit_frac": 0.0075,
+   "p90_steps": 811,
+   "success_rate": 0.9875
+  },
+  "label": "rs_r2",
+  "median_rel_steps_per_run": -0.17165219296784318,
+  "new_tasks": {
+   "candidate_programs": 4,
+   "incumbent": {
+    "episodes": 200,
+    "high_step_failures": 0,
+    "high_step_failures_hit_cap": 0,
+    "kind_rates": {
+     "STEP_BUDGET_EXHAUSTED": 0.0,
+     "WITHIN_BUDGET_INCOMPLETE": 0.01
+    },
+    "kinds": {
+     "STEP_BUDGET_EXHAUSTED": 0,
+     "SUCCESS": 198,
+     "WITHIN_BUDGET_INCOMPLETE": 2
+    },
+    "mean_steps": 547.04,
+    "mean_steps_success": 548.9949494949495,
+    "median_steps": 600.5,
+    "median_wall_s": 123.2865,
+    "near_limit_frac": 0.0,
+    "p90_steps": 729,
+    "success_rate": 0.99
+   },
+   "label": "rs_r2_new",
+   "median_rel_steps_per_run": -0.17165219296784318,
+   "recoveries": 1,
+   "regressions": 0,
+   "rel_mean_steps_pooled": -0.1707507677683533,
+   "repaired": {
+    "episodes": 400,
+    "high_step_failures": 0,
+    "high_step_failures_hit_cap": 0,
+    "kind_rates": {
+     "STEP_BUDGET_EXHAUSTED": 0.0,
+     "WITHIN_BUDGET_INCOMPLETE": 0.0075
+    },
+    "kinds": {
+     "STEP_BUDGET_EXHAUSTED": 0,
+     "SUCCESS": 397,
+     "WITHIN_BUDGET_INCOMPLETE": 3
+    },
+    "mean_steps": 453.6325,
+    "mean_steps_success": 454.9471032745592,
+    "median_steps": 464.5,
+    "median_wall_s": 125.455,
+    "near_limit_frac": 0.0,
+    "p90_steps": 630,
+    "success_rate": 0.9925
+   },
+   "runs_eval_margin_up": 4,
+   "runs_faster": 4,
+   "task_level": {
+    "d_eval_min_margin": {
+     "ci95": [
+      0.1745,
+      0.22749999999999998
+     ],
+     "mean": 0.20099999999999998
+    },
+    "d_fail": {
+     "ci95": [
+      -0.005,
+      0.0
+     ],
+     "mean": -0.0025
+    },
+    "d_worst_steps": {
+     "ci95": [
+      -227.5,
+      -174.5
+     ],
+     "mean": -201.0
+    },
+    "rel_steps": {
+     "ci95": [
+      -0.21352083438813219,
+      -0.14658255371498874
+     ],
+     "mean": -0.18005169405156046
+    }
+   },
+   "tasks_fail_better_worse_tie": [
+    1,
+    0,
+    1
+   ],
+   "transitions": {
+    "SUCCESS->SUCCESS": 396,
+    "WITHIN_BUDGET_INCOMPLETE->SUCCESS": 1,
+    "WITHIN_BUDGET_INCOMPLETE->WITHIN_BUDGET_INCOMPLETE": 3
+   },
+   "unique_tasks": 2,
+   "worst_steps_mean": {
+    "cand": 513.5,
+    "inc": 714.5
+   }
+  },
+  "recoveries": 7,
+  "regressions": 0,
+  "rel_mean_steps_pooled": -0.18410566438717302,
+  "repaired": {
+   "episodes": 800,
+   "high_step_failures": 0,
+   "high_step_failures_hit_cap": 0,
+   "kind_rates": {
+    "STEP_BUDGET_EXHAUSTED": 0.0,
+    "WITHIN_BUDGET_INCOMPLETE": 0.00375
+   },
+   "kinds": {
+    "STEP_BUDGET_EXHAUSTED": 0,
+    "SUCCESS": 797,
+    "WITHIN_BUDGET_INCOMPLETE": 3
+   },
+   "mean_steps": 506.76625,
+   "mean_steps_success": 507.6210790464241,
+   "median_steps": 543.0,
+   "median_wall_s": 169.0655,
+   "near_limit_frac": 0.0,
+   "p90_steps": 654,
+   "success_rate": 0.99625
+  },
+  "runs_eval_margin_up": 8,
+  "runs_faster": 8,
+  "sessions": 4,
+  "task_level": {
+   "d_eval_min_margin": {
+    "ci95": [
+     0.15125,
+     0.23275
+    ],
+    "mean": 0.192
+   },
+   "d_fail": {
+    "ci95": [
+     -0.0225,
+     0.0
+    ],
+    "mean": -0.008749999999999999
+   },
+   "d_worst_steps": {
+    "ci95": [
+     -232.75,
+     -151.25
+    ],
+    "mean": -192.0
+   },
+   "rel_steps": {
+    "ci95": [
+     -0.26349796969961986,
+     -0.09819691168030562
+    ],
+    "mean": -0.1805821918104953
+   }
+  },
+  "tasks_fail_better_worse_tie": [
+   2,
+   0,
+   2
+  ],
+  "transitions": {
+   "STEP_BUDGET_EXHAUSTED->SUCCESS": 6,
+   "SUCCESS->SUCCESS": 790,
+   "WITHIN_BUDGET_INCOMPLETE->SUCCESS": 1,
+   "WITHIN_BUDGET_INCOMPLETE->WITHIN_BUDGET_INCOMPLETE": 3
+  },
+  "unique_tasks": 4,
+  "usd": 8.460485600000002,
+  "violations": 0,
+  "worst_steps_mean": {
+   "cand": 637.5,
+   "inc": 829.5
+  }
+ }
+}

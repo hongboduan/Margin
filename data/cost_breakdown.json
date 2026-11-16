@@ -1,0 +1,23 @@
+[
+  {
+    "benchmark": "LIBERO-Pro",
+    "campaign_usd": 0,
+    "campaign_sessions": 0,
+    "repair_r1_usd": 68.2,
+    "repair_r2_usd": 95.5
+  },
+  {
+    "benchmark": "LIBERO-90",
+    "campaign_usd": 1124,
+    "campaign_sessions": 183,
+    "repair_r1_usd": 51.2,
+    "repair_r2_usd": 99.7
+  },
+  {
+    "benchmark": "Robosuite",
+    "campaign_usd": 110,
+    "campaign_sessions": 14,
+    "repair_r1_usd": 14.8,
+    "repair_r2_usd": 8.5
+  }
+]

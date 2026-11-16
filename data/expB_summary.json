@@ -1,0 +1,614 @@
+{
+ "agreement": {
+  "ablation/fixed5_strict": {
+   "episodes_csv": 670.0,
+   "episodes_indep": 670,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "ablation/full15": {
+   "episodes_csv": 2010.0,
+   "episodes_indep": 2010,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "ablation/safe_bound_fixed": {
+   "episodes_csv": 1.0,
+   "episodes_indep": 1,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "ablation/safe_bound_simple": {
+   "episodes_csv": 1.0,
+   "episodes_indep": 1,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "ablation/simple_failure_priority": {
+   "episodes_csv": 670.0,
+   "episodes_indep": 670,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "ablation/stop_on_perfect": {
+   "episodes_csv": 15.0,
+   "episodes_indep": 15,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "all/fixed5_strict": {
+   "episodes_csv": 1960.0,
+   "episodes_indep": 1960,
+   "fr_csv": 20.0,
+   "fr_indep": 20,
+   "match": true
+  },
+  "all/full15": {
+   "episodes_csv": 4560.0,
+   "episodes_indep": 4560,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "all/safe_bound_fixed": {
+   "episodes_csv": 1263.0,
+   "episodes_indep": 1263,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "all/safe_bound_simple": {
+   "episodes_csv": 1188.0,
+   "episodes_indep": 1187,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": false
+  },
+  "all/simple_failure_priority": {
+   "episodes_csv": 2160.0,
+   "episodes_indep": 2170,
+   "fr_csv": 3.0,
+   "fr_indep": 3,
+   "match": false
+  },
+  "all/stop_on_perfect": {
+   "episodes_csv": 1410.0,
+   "episodes_indep": 1410,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "non_ablation/fixed5_strict": {
+   "episodes_csv": 1290.0,
+   "episodes_indep": 1290,
+   "fr_csv": 20.0,
+   "fr_indep": 20,
+   "match": true
+  },
+  "non_ablation/full15": {
+   "episodes_csv": 2550.0,
+   "episodes_indep": 2550,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "non_ablation/safe_bound_fixed": {
+   "episodes_csv": 1262.0,
+   "episodes_indep": 1262,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  },
+  "non_ablation/safe_bound_simple": {
+   "episodes_csv": 1187.0,
+   "episodes_indep": 1186,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": false
+  },
+  "non_ablation/simple_failure_priority": {
+   "episodes_csv": 1490.0,
+   "episodes_indep": 1500,
+   "fr_csv": 3.0,
+   "fr_indep": 3,
+   "match": false
+  },
+  "non_ablation/stop_on_perfect": {
+   "episodes_csv": 1395.0,
+   "episodes_indep": 1395,
+   "fr_csv": 0.0,
+   "fr_indep": 0,
+   "match": true
+  }
+ },
+ "candidates": 304,
+ "candidates_by_category": {
+  "ablation": 134,
+  "execution": 82,
+  "no_hypothesis": 7,
+  "other": 39,
+  "perception": 7,
+  "placement": 35
+ },
+ "csv_row_audit": {
+  "inconsistencies": [],
+  "n_inconsistent": 0,
+  "rows_checked": 14288
+ },
+ "incumbent_perfect_decision_points": 210,
+ "independent": {
+  "ablation": {
+   "fixed5_strict": {
+    "candidates": 134,
+    "episodes": 670,
+    "false_rejects": 0,
+    "fr_rate": null,
+    "saving_vs_full15": 0.6666666666666667,
+    "selection_loss_sum": 24,
+    "tasks_with_loss": 14,
+    "true_improvers": 0,
+    "wall_h": 10.855339444444445
+   },
+   "full15": {
+    "candidates": 134,
+    "episodes": 2010,
+    "false_rejects": 0,
+    "fr_rate": null,
+    "saving_vs_full15": 0.0,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 0,
+    "wall_h": 30.533334444444446
+   },
+   "safe_bound_fixed": {
+    "candidates": 134,
+    "episodes": 1,
+    "false_rejects": 0,
+    "fr_rate": null,
+    "saving_vs_full15": 0.9995024875621891,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 0,
+    "wall_h": 0.02826666666666667
+   },
+   "safe_bound_simple": {
+    "candidates": 134,
+    "episodes": 1,
+    "false_rejects": 0,
+    "fr_rate": null,
+    "saving_vs_full15": 0.9995024875621891,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 0,
+    "wall_h": 0.026149444444444447
+   },
+   "simple_failure_priority": {
+    "candidates": 134,
+    "episodes": 670,
+    "false_rejects": 0,
+    "fr_rate": null,
+    "saving_vs_full15": 0.6666666666666667,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 0,
+    "wall_h": 10.785327777777779
+   },
+   "stop_on_perfect": {
+    "candidates": 134,
+    "episodes": 15,
+    "false_rejects": 0,
+    "fr_rate": null,
+    "saving_vs_full15": 0.9925373134328358,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 0,
+    "wall_h": 0.3721677777777778
+   }
+  },
+  "all": {
+   "fixed5_strict": {
+    "candidates": 304,
+    "episodes": 1960,
+    "false_rejects": 20,
+    "fr_rate": 0.3225806451612903,
+    "saving_vs_full15": 0.5701754385964912,
+    "selection_loss_sum": 24,
+    "tasks_with_loss": 14,
+    "true_improvers": 62,
+    "wall_h": 33.88707472222222
+   },
+   "full15": {
+    "candidates": 304,
+    "episodes": 4560,
+    "false_rejects": 0,
+    "fr_rate": 0.0,
+    "saving_vs_full15": 0.0,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 73.76897194444444
+   },
+   "safe_bound_fixed": {
+    "candidates": 304,
+    "episodes": 1263,
+    "false_rejects": 0,
+    "fr_rate": 0.0,
+    "saving_vs_full15": 0.7230263157894736,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 23.95798361111111
+   },
+   "safe_bound_simple": {
+    "candidates": 304,
+    "episodes": 1187,
+    "false_rejects": 0,
+    "fr_rate": 0.0,
+    "saving_vs_full15": 0.7396929824561403,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 22.444946944444442
+   },
+   "simple_failure_priority": {
+    "candidates": 304,
+    "episodes": 2170,
+    "false_rejects": 3,
+    "fr_rate": 0.04838709677419355,
+    "saving_vs_full15": 0.5241228070175439,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 37.83694722222222
+   },
+   "stop_on_perfect": {
+    "candidates": 304,
+    "episodes": 1410,
+    "false_rejects": 0,
+    "fr_rate": 0.0,
+    "saving_vs_full15": 0.6907894736842105,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 26.800764444444447
+   }
+  },
+  "non_ablation": {
+   "fixed5_strict": {
+    "candidates": 170,
+    "episodes": 1290,
+    "false_rejects": 20,
+    "fr_rate": 0.3225806451612903,
+    "saving_vs_full15": 0.49411764705882355,
+    "selection_loss_sum": 24,
+    "tasks_with_loss": 14,
+    "true_improvers": 62,
+    "wall_h": 23.031735277777777
+   },
+   "full15": {
+    "candidates": 170,
+    "episodes": 2550,
+    "false_rejects": 0,
+    "fr_rate": 0.0,
+    "saving_vs_full15": 0.0,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 43.2356375
+   },
+   "safe_bound_fixed": {
+    "candidates": 170,
+    "episodes": 1262,
+    "false_rejects": 0,
+    "fr_rate": 0.0,
+    "saving_vs_full15": 0.5050980392156863,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 23.929716944444444
+   },
+   "safe_bound_simple": {
+    "candidates": 170,
+    "episodes": 1186,
+    "false_rejects": 0,
+    "fr_rate": 0.0,
+    "saving_vs_full15": 0.5349019607843137,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 22.4187975
+   },
+   "simple_failure_priority": {
+    "candidates": 170,
+    "episodes": 1500,
+    "false_rejects": 3,
+    "fr_rate": 0.04838709677419355,
+    "saving_vs_full15": 0.4117647058823529,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 27.051619444444444
+   },
+   "stop_on_perfect": {
+    "candidates": 170,
+    "episodes": 1395,
+    "false_rejects": 0,
+    "fr_rate": 0.0,
+    "saving_vs_full15": 0.4529411764705882,
+    "selection_loss_sum": 0,
+    "tasks_with_loss": 0,
+    "true_improvers": 62,
+    "wall_h": 26.428596666666667
+   }
+  }
+ },
+ "oracle_ordering_floor_all_candidates": 1161,
+ "phase2_csv": {
+  "ablation": {
+   "fixed5_strict": {
+    "candidates": 134.0,
+    "episodes": 670.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.6666666666666667,
+    "true_improvers": 0.0,
+    "wall_h": 10.855339444444445
+   },
+   "full15": {
+    "candidates": 134.0,
+    "episodes": 2010.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.0,
+    "true_improvers": 0.0,
+    "wall_h": 30.533334444444446
+   },
+   "random5_strict": {
+    "candidates": 134.0,
+    "episodes": 691.5,
+    "false_rejects": 0.0,
+    "repeats": 20,
+    "saving_vs_full15": 0.6559701492537313,
+    "true_improvers": 0.0,
+    "wall_h": 10.576159875
+   },
+   "safe_bound_failure_aware": {
+    "candidates": 134.0,
+    "episodes": 1.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.9995024875621891,
+    "true_improvers": 0.0,
+    "wall_h": 0.026149444444444447
+   },
+   "safe_bound_fixed": {
+    "candidates": 134.0,
+    "episodes": 1.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.9995024875621891,
+    "true_improvers": 0.0,
+    "wall_h": 0.02826666666666667
+   },
+   "safe_bound_random": {
+    "candidates": 134.0,
+    "episodes": 1.2,
+    "false_rejects": 0.0,
+    "repeats": 20,
+    "saving_vs_full15": 0.9994029850746269,
+    "true_improvers": 0.0,
+    "wall_h": 0.0298245
+   },
+   "safe_bound_simple": {
+    "candidates": 134.0,
+    "episodes": 1.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.9995024875621891,
+    "true_improvers": 0.0,
+    "wall_h": 0.026149444444444447
+   },
+   "simple_failure_priority": {
+    "candidates": 134.0,
+    "episodes": 670.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.6666666666666667,
+    "true_improvers": 0.0,
+    "wall_h": 10.725417222222223
+   },
+   "stop_on_perfect": {
+    "candidates": 134.0,
+    "episodes": 15.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.9925373134328358,
+    "true_improvers": 0.0,
+    "wall_h": 0.3721677777777778
+   }
+  },
+  "all": {
+   "fixed5_strict": {
+    "candidates": 304.0,
+    "episodes": 1960.0,
+    "false_rejects": 20.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.5701754385964912,
+    "true_improvers": 62.0,
+    "wall_h": 33.88707472222222
+   },
+   "full15": {
+    "candidates": 304.0,
+    "episodes": 4560.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.0,
+    "true_improvers": 62.0,
+    "wall_h": 73.76897194444444
+   },
+   "random5_strict": {
+    "candidates": 304.0,
+    "episodes": 2039.0,
+    "false_rejects": 15.35,
+    "repeats": 20,
+    "saving_vs_full15": 0.5528508771929825,
+    "true_improvers": 62.0,
+    "wall_h": 34.15878473611111
+   },
+   "safe_bound_failure_aware": {
+    "candidates": 304.0,
+    "episodes": 1205.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.7357456140350878,
+    "true_improvers": 62.0,
+    "wall_h": 22.739496944444443
+   },
+   "safe_bound_fixed": {
+    "candidates": 304.0,
+    "episodes": 1263.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.7230263157894736,
+    "true_improvers": 62.0,
+    "wall_h": 23.95798361111111
+   },
+   "safe_bound_random": {
+    "candidates": 304.0,
+    "episodes": 1260.15,
+    "false_rejects": 0.0,
+    "repeats": 20,
+    "saving_vs_full15": 0.7236513157894737,
+    "true_improvers": 62.0,
+    "wall_h": 23.841667555555556
+   },
+   "safe_bound_simple": {
+    "candidates": 304.0,
+    "episodes": 1188.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.7394736842105263,
+    "true_improvers": 62.0,
+    "wall_h": 22.466665000000003
+   },
+   "simple_failure_priority": {
+    "candidates": 304.0,
+    "episodes": 2160.0,
+    "false_rejects": 3.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.5263157894736843,
+    "true_improvers": 62.0,
+    "wall_h": 37.578631944444446
+   },
+   "stop_on_perfect": {
+    "candidates": 304.0,
+    "episodes": 1410.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.6907894736842105,
+    "true_improvers": 62.0,
+    "wall_h": 26.800764444444447
+   }
+  },
+  "non_ablation": {
+   "fixed5_strict": {
+    "candidates": 170.0,
+    "episodes": 1290.0,
+    "false_rejects": 20.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.49411764705882355,
+    "true_improvers": 62.0,
+    "wall_h": 23.031735277777777
+   },
+   "full15": {
+    "candidates": 170.0,
+    "episodes": 2550.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.0,
+    "true_improvers": 62.0,
+    "wall_h": 43.2356375
+   },
+   "random5_strict": {
+    "candidates": 170.0,
+    "episodes": 1347.5,
+    "false_rejects": 15.35,
+    "repeats": 20,
+    "saving_vs_full15": 0.4715686274509804,
+    "true_improvers": 62.0,
+    "wall_h": 23.58262486111111
+   },
+   "safe_bound_failure_aware": {
+    "candidates": 170.0,
+    "episodes": 1204.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.527843137254902,
+    "true_improvers": 62.0,
+    "wall_h": 22.7133475
+   },
+   "safe_bound_fixed": {
+    "candidates": 170.0,
+    "episodes": 1262.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.5050980392156863,
+    "true_improvers": 62.0,
+    "wall_h": 23.929716944444444
+   },
+   "safe_bound_random": {
+    "candidates": 170.0,
+    "episodes": 1258.95,
+    "false_rejects": 0.0,
+    "repeats": 20,
+    "saving_vs_full15": 0.5062941176470588,
+    "true_improvers": 62.0,
+    "wall_h": 23.811843055555553
+   },
+   "safe_bound_simple": {
+    "candidates": 170.0,
+    "episodes": 1187.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.5345098039215685,
+    "true_improvers": 62.0,
+    "wall_h": 22.440515555555557
+   },
+   "simple_failure_priority": {
+    "candidates": 170.0,
+    "episodes": 1490.0,
+    "false_rejects": 3.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.4156862745098039,
+    "true_improvers": 62.0,
+    "wall_h": 26.853214722222223
+   },
+   "stop_on_perfect": {
+    "candidates": 170.0,
+    "episodes": 1395.0,
+    "false_rejects": 0.0,
+    "repeats": 1,
+    "saving_vs_full15": 0.4529411764705882,
+    "true_improvers": 62.0,
+    "wall_h": 26.428596666666667
+   }
+  }
+ },
+ "tasks_complete_matrix": 74,
+ "tasks_partial_excluded": [
+  "libero_object_swap/task_9",
+  "libero_object_task/task_8",
+  "libero_object_task/task_9",
+  "libero_spatial_swap/task_7",
+  "libero_spatial_swap/task_9",
+  "libero_spatial_task/task_8"
+ ],
+ "true_improvers": 62,
+ "v00_initial_episodes_common_to_all": 1110
+}

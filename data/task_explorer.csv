@@ -1,0 +1,178 @@
+benchmark,task,group,aspire,margin,refined,passes,n,margin_headroom
+LIBERO-Pro,libero_10_swap/task_0,10 Swap,98.0,97.0,True,49,50,0.226
+LIBERO-Pro,libero_10_swap/task_1,10 Swap,94.0,98.0,True,47,50,0.137
+LIBERO-Pro,libero_10_swap/task_2,10 Swap,100.0,100.0,True,50,50,0.321
+LIBERO-Pro,libero_10_swap/task_3,10 Swap,100.0,97.0,True,50,50,0.167
+LIBERO-Pro,libero_10_swap/task_4,10 Swap,88.0,95.0,True,44,50,0.01
+LIBERO-Pro,libero_10_swap/task_5,10 Swap,96.0,97.0,True,48,50,0.408
+LIBERO-Pro,libero_10_swap/task_6,10 Swap,98.0,86.0,True,49,50,0.089
+LIBERO-Pro,libero_10_swap/task_7,10 Swap,100.0,100.0,True,50,50,0.231
+LIBERO-Pro,libero_10_swap/task_8,10 Swap,100.0,100.0,True,50,50,0.14
+LIBERO-Pro,libero_10_swap/task_9,10 Swap,64.0,64.0,False,32,50,0.034
+LIBERO-Pro,libero_10_task/task_0,10 Task,96.0,91.0,True,48,50,0.072
+LIBERO-Pro,libero_10_task/task_1,10 Task,100.0,98.0,True,50,50,0.291
+LIBERO-Pro,libero_10_task/task_2,10 Task,100.0,100.0,True,50,50,0.297
+LIBERO-Pro,libero_10_task/task_3,10 Task,100.0,100.0,True,50,50,0.257
+LIBERO-Pro,libero_10_task/task_4,10 Task,100.0,100.0,True,50,50,0.285
+LIBERO-Pro,libero_10_task/task_5,10 Task,96.0,95.0,True,48,50,0.238
+LIBERO-Pro,libero_10_task/task_6,10 Task,92.0,94.0,True,46,50,0.175
+LIBERO-Pro,libero_10_task/task_7,10 Task,100.0,100.0,True,50,50,0.213
+LIBERO-Pro,libero_10_task/task_8,10 Task,100.0,100.0,False,50,50,0.628
+LIBERO-Pro,libero_10_task/task_9,10 Task,96.0,100.0,True,48,50,0.036
+LIBERO-Pro,libero_goal_swap/task_0,Goal Swap,100.0,100.0,True,50,50,0.38
+LIBERO-Pro,libero_goal_swap/task_1,Goal Swap,98.0,95.0,True,49,50,0.375
+LIBERO-Pro,libero_goal_swap/task_2,Goal Swap,100.0,100.0,False,50,50,0.643
+LIBERO-Pro,libero_goal_swap/task_3,Goal Swap,100.0,100.0,True,50,50,0.24
+LIBERO-Pro,libero_goal_swap/task_4,Goal Swap,100.0,100.0,False,50,50,0.564
+LIBERO-Pro,libero_goal_swap/task_5,Goal Swap,92.0,96.0,True,46,50,0.254
+LIBERO-Pro,libero_goal_swap/task_6,Goal Swap,96.0,100.0,True,48,50,0.252
+LIBERO-Pro,libero_goal_swap/task_7,Goal Swap,100.0,100.0,False,50,50,0.804
+LIBERO-Pro,libero_goal_swap/task_8,Goal Swap,98.0,98.0,False,49,50,0.616
+LIBERO-Pro,libero_goal_swap/task_9,Goal Swap,100.0,96.0,True,50,50,0.35
+LIBERO-Pro,libero_goal_task/task_0,Goal Task,100.0,100.0,True,50,50,0.336
+LIBERO-Pro,libero_goal_task/task_1,Goal Task,100.0,100.0,False,50,50,0.586
+LIBERO-Pro,libero_goal_task/task_2,Goal Task,94.0,94.0,False,47,50,0.795
+LIBERO-Pro,libero_goal_task/task_3,Goal Task,96.0,100.0,True,48,50,0.075
+LIBERO-Pro,libero_goal_task/task_4,Goal Task,100.0,100.0,False,50,50,0.549
+LIBERO-Pro,libero_goal_task/task_5,Goal Task,100.0,100.0,False,50,50,0.82
+LIBERO-Pro,libero_goal_task/task_6,Goal Task,100.0,100.0,False,50,50,0.76
+LIBERO-Pro,libero_goal_task/task_7,Goal Task,100.0,100.0,False,50,50,0.842
+LIBERO-Pro,libero_goal_task/task_8,Goal Task,100.0,100.0,False,50,50,0.504
+LIBERO-Pro,libero_goal_task/task_9,Goal Task,98.0,98.0,False,49,50,0.566
+LIBERO-Pro,libero_object_swap/task_0,Object Swap,100.0,100.0,False,50,50,0.6
+LIBERO-Pro,libero_object_swap/task_1,Object Swap,100.0,100.0,False,50,50,0.594
+LIBERO-Pro,libero_object_swap/task_2,Object Swap,100.0,100.0,False,50,50,0.654
+LIBERO-Pro,libero_object_swap/task_3,Object Swap,92.0,92.0,False,46,50,0.619
+LIBERO-Pro,libero_object_swap/task_4,Object Swap,100.0,100.0,False,50,50,0.569
+LIBERO-Pro,libero_object_swap/task_5,Object Swap,100.0,100.0,False,50,50,0.661
+LIBERO-Pro,libero_object_swap/task_6,Object Swap,100.0,100.0,False,50,50,0.654
+LIBERO-Pro,libero_object_swap/task_7,Object Swap,100.0,100.0,False,50,50,0.67
+LIBERO-Pro,libero_object_swap/task_8,Object Swap,100.0,100.0,False,50,50,0.625
+LIBERO-Pro,libero_object_swap/task_9,Object Swap,100.0,100.0,False,50,50,0.679
+LIBERO-Pro,libero_object_task/task_0,Object Task,100.0,100.0,False,50,50,0.621
+LIBERO-Pro,libero_object_task/task_1,Object Task,100.0,100.0,False,50,50,0.647
+LIBERO-Pro,libero_object_task/task_2,Object Task,100.0,100.0,False,50,50,0.599
+LIBERO-Pro,libero_object_task/task_3,Object Task,100.0,100.0,False,50,50,0.711
+LIBERO-Pro,libero_object_task/task_4,Object Task,100.0,100.0,False,50,50,0.648
+LIBERO-Pro,libero_object_task/task_5,Object Task,100.0,100.0,False,50,50,0.64
+LIBERO-Pro,libero_object_task/task_6,Object Task,100.0,100.0,False,50,50,0.691
+LIBERO-Pro,libero_object_task/task_7,Object Task,100.0,100.0,False,50,50,0.608
+LIBERO-Pro,libero_object_task/task_8,Object Task,100.0,100.0,False,50,50,0.549
+LIBERO-Pro,libero_object_task/task_9,Object Task,100.0,100.0,False,50,50,0.626
+LIBERO-Pro,libero_spatial_swap/task_0,Spatial Swap,100.0,100.0,False,50,50,0.677
+LIBERO-Pro,libero_spatial_swap/task_1,Spatial Swap,98.0,94.0,True,49,50,0.374
+LIBERO-Pro,libero_spatial_swap/task_2,Spatial Swap,100.0,100.0,False,50,50,0.688
+LIBERO-Pro,libero_spatial_swap/task_3,Spatial Swap,96.0,96.0,False,48,50,0.01
+LIBERO-Pro,libero_spatial_swap/task_4,Spatial Swap,96.0,98.0,True,48,50,0.328
+LIBERO-Pro,libero_spatial_swap/task_5,Spatial Swap,98.0,98.0,False,49,50,0.581
+LIBERO-Pro,libero_spatial_swap/task_6,Spatial Swap,100.0,100.0,True,50,50,0.165
+LIBERO-Pro,libero_spatial_swap/task_7,Spatial Swap,100.0,100.0,False,50,50,0.643
+LIBERO-Pro,libero_spatial_swap/task_8,Spatial Swap,100.0,100.0,False,50,50,0.636
+LIBERO-Pro,libero_spatial_swap/task_9,Spatial Swap,100.0,100.0,False,50,50,0.287
+LIBERO-Pro,libero_spatial_task/task_0,Spatial Task,96.0,94.0,True,48,50,0.429
+LIBERO-Pro,libero_spatial_task/task_1,Spatial Task,100.0,100.0,True,50,50,0.465
+LIBERO-Pro,libero_spatial_task/task_2,Spatial Task,92.0,95.0,True,46,50,0.417
+LIBERO-Pro,libero_spatial_task/task_3,Spatial Task,98.0,100.0,True,49,50,0.297
+LIBERO-Pro,libero_spatial_task/task_4,Spatial Task,98.0,100.0,True,49,50,0.254
+LIBERO-Pro,libero_spatial_task/task_5,Spatial Task,100.0,100.0,False,50,50,0.655
+LIBERO-Pro,libero_spatial_task/task_6,Spatial Task,100.0,100.0,True,50,50,0.489
+LIBERO-Pro,libero_spatial_task/task_7,Spatial Task,100.0,100.0,True,50,50,0.315
+LIBERO-Pro,libero_spatial_task/task_8,Spatial Task,100.0,100.0,False,50,50,0.407
+LIBERO-Pro,libero_spatial_task/task_9,Spatial Task,100.0,100.0,True,50,50,0.479
+LIBERO-90,libero_90/task_0,LIBERO-90,100.0,,False,50,50,0.782
+LIBERO-90,libero_90/task_1,LIBERO-90,94.0,,False,47,50,0.205
+LIBERO-90,libero_90/task_10,LIBERO-90,100.0,,False,50,50,0.665
+LIBERO-90,libero_90/task_11,LIBERO-90,100.0,,False,50,50,0.755
+LIBERO-90,libero_90/task_12,LIBERO-90,100.0,,False,50,50,0.723
+LIBERO-90,libero_90/task_13,LIBERO-90,98.0,,False,49,50,0.446
+LIBERO-90,libero_90/task_14,LIBERO-90,100.0,,False,50,50,0.743
+LIBERO-90,libero_90/task_15,LIBERO-90,100.0,,False,50,50,0.566
+LIBERO-90,libero_90/task_16,LIBERO-90,100.0,,False,50,50,0.394
+LIBERO-90,libero_90/task_17,LIBERO-90,100.0,,False,50,50,0.702
+LIBERO-90,libero_90/task_18,LIBERO-90,100.0,,False,50,50,0.34
+LIBERO-90,libero_90/task_19,LIBERO-90,100.0,,False,50,50,0.585
+LIBERO-90,libero_90/task_2,LIBERO-90,88.0,,False,44,50,0.442
+LIBERO-90,libero_90/task_20,LIBERO-90,100.0,,False,50,50,0.823
+LIBERO-90,libero_90/task_21,LIBERO-90,100.0,,False,50,50,0.206
+LIBERO-90,libero_90/task_22,LIBERO-90,100.0,,False,50,50,0.722
+LIBERO-90,libero_90/task_23,LIBERO-90,100.0,,False,50,50,0.094
+LIBERO-90,libero_90/task_24,LIBERO-90,100.0,,False,50,50,0.339
+LIBERO-90,libero_90/task_25,LIBERO-90,100.0,,False,50,50,0.552
+LIBERO-90,libero_90/task_26,LIBERO-90,100.0,,False,50,50,0.733
+LIBERO-90,libero_90/task_27,LIBERO-90,100.0,,False,50,50,0.588
+LIBERO-90,libero_90/task_28,LIBERO-90,100.0,,False,50,50,0.81
+LIBERO-90,libero_90/task_29,LIBERO-90,98.0,,False,49,50,0.61
+LIBERO-90,libero_90/task_3,LIBERO-90,100.0,,False,50,50,0.209
+LIBERO-90,libero_90/task_30,LIBERO-90,100.0,,False,50,50,0.718
+LIBERO-90,libero_90/task_31,LIBERO-90,100.0,,False,50,50,0.574
+LIBERO-90,libero_90/task_32,LIBERO-90,98.0,,False,49,50,0.507
+LIBERO-90,libero_90/task_33,LIBERO-90,100.0,,False,50,50,0.522
+LIBERO-90,libero_90/task_34,LIBERO-90,100.0,,False,50,50,0.732
+LIBERO-90,libero_90/task_35,LIBERO-90,94.0,,False,47,50,0.023
+LIBERO-90,libero_90/task_36,LIBERO-90,98.0,,False,49,50,0.503
+LIBERO-90,libero_90/task_37,LIBERO-90,100.0,,False,50,50,0.525
+LIBERO-90,libero_90/task_38,LIBERO-90,100.0,,False,50,50,0.366
+LIBERO-90,libero_90/task_39,LIBERO-90,98.0,,False,49,50,0.355
+LIBERO-90,libero_90/task_4,LIBERO-90,96.0,,False,48,50,0.346
+LIBERO-90,libero_90/task_40,LIBERO-90,100.0,,False,50,50,0.513
+LIBERO-90,libero_90/task_41,LIBERO-90,100.0,,False,50,50,0.443
+LIBERO-90,libero_90/task_42,LIBERO-90,98.0,,False,49,50,0.515
+LIBERO-90,libero_90/task_43,LIBERO-90,100.0,,False,50,50,0.539
+LIBERO-90,libero_90/task_44,LIBERO-90,100.0,,False,50,50,0.796
+LIBERO-90,libero_90/task_45,LIBERO-90,100.0,,False,50,50,0.246
+LIBERO-90,libero_90/task_46,LIBERO-90,94.0,,False,47,50,0.603
+LIBERO-90,libero_90/task_47,LIBERO-90,100.0,,False,50,50,0.555
+LIBERO-90,libero_90/task_48,LIBERO-90,100.0,,False,50,50,0.511
+LIBERO-90,libero_90/task_49,LIBERO-90,98.0,,False,49,50,0.663
+LIBERO-90,libero_90/task_5,LIBERO-90,98.0,,False,49,50,0.248
+LIBERO-90,libero_90/task_50,LIBERO-90,100.0,,False,50,50,0.669
+LIBERO-90,libero_90/task_51,LIBERO-90,100.0,,False,50,50,0.622
+LIBERO-90,libero_90/task_52,LIBERO-90,96.0,,False,48,50,0.712
+LIBERO-90,libero_90/task_53,LIBERO-90,98.0,,False,49,50,0.669
+LIBERO-90,libero_90/task_54,LIBERO-90,100.0,,False,50,50,0.707
+LIBERO-90,libero_90/task_55,LIBERO-90,100.0,,False,50,50,0.702
+LIBERO-90,libero_90/task_56,LIBERO-90,100.0,,False,50,50,0.751
+LIBERO-90,libero_90/task_57,LIBERO-90,100.0,,False,50,50,0.66
+LIBERO-90,libero_90/task_58,LIBERO-90,100.0,,False,50,50,0.413
+LIBERO-90,libero_90/task_59,LIBERO-90,100.0,,False,50,50,0.737
+LIBERO-90,libero_90/task_6,LIBERO-90,100.0,,False,50,50,0.169
+LIBERO-90,libero_90/task_60,LIBERO-90,100.0,,False,50,50,0.703
+LIBERO-90,libero_90/task_61,LIBERO-90,100.0,,False,50,50,0.668
+LIBERO-90,libero_90/task_62,LIBERO-90,100.0,,False,50,50,0.466
+LIBERO-90,libero_90/task_63,LIBERO-90,100.0,,False,50,50,0.319
+LIBERO-90,libero_90/task_64,LIBERO-90,98.0,,False,49,50,0.365
+LIBERO-90,libero_90/task_65,LIBERO-90,100.0,,False,50,50,0.487
+LIBERO-90,libero_90/task_66,LIBERO-90,100.0,,False,50,50,0.39
+LIBERO-90,libero_90/task_67,LIBERO-90,100.0,,False,50,50,0.702
+LIBERO-90,libero_90/task_68,LIBERO-90,100.0,,False,50,50,0.695
+LIBERO-90,libero_90/task_69,LIBERO-90,100.0,,False,50,50,0.726
+LIBERO-90,libero_90/task_7,LIBERO-90,100.0,,False,50,50,0.754
+LIBERO-90,libero_90/task_70,LIBERO-90,100.0,,False,50,50,0.704
+LIBERO-90,libero_90/task_71,LIBERO-90,100.0,,False,50,50,0.349
+LIBERO-90,libero_90/task_72,LIBERO-90,100.0,,False,50,50,0.651
+LIBERO-90,libero_90/task_73,LIBERO-90,94.0,,False,47,50,0.549
+LIBERO-90,libero_90/task_74,LIBERO-90,100.0,,False,50,50,0.58
+LIBERO-90,libero_90/task_75,LIBERO-90,100.0,,False,50,50,0.619
+LIBERO-90,libero_90/task_76,LIBERO-90,100.0,,False,50,50,0.601
+LIBERO-90,libero_90/task_77,LIBERO-90,100.0,,False,50,50,0.654
+LIBERO-90,libero_90/task_78,LIBERO-90,100.0,,False,50,50,0.611
+LIBERO-90,libero_90/task_79,LIBERO-90,100.0,,False,50,50,0.665
+LIBERO-90,libero_90/task_8,LIBERO-90,92.0,,False,46,50,0.117
+LIBERO-90,libero_90/task_80,LIBERO-90,96.0,,False,48,50,0.607
+LIBERO-90,libero_90/task_81,LIBERO-90,100.0,,False,50,50,0.589
+LIBERO-90,libero_90/task_82,LIBERO-90,100.0,,False,50,50,0.731
+LIBERO-90,libero_90/task_83,LIBERO-90,100.0,,False,50,50,0.691
+LIBERO-90,libero_90/task_84,LIBERO-90,100.0,,False,50,50,0.315
+LIBERO-90,libero_90/task_85,LIBERO-90,100.0,,False,50,50,0.526
+LIBERO-90,libero_90/task_86,LIBERO-90,100.0,,False,50,50,0.537
+LIBERO-90,libero_90/task_87,LIBERO-90,100.0,,False,50,50,0.54
+LIBERO-90,libero_90/task_88,LIBERO-90,100.0,,False,50,50,0.416
+LIBERO-90,libero_90/task_89,LIBERO-90,100.0,,False,50,50,0.313
+LIBERO-90,libero_90/task_9,LIBERO-90,100.0,,False,50,50,0.727
+Robosuite,cube_lifting,Single-arm,100.0,,False,100,100,0.782
+Robosuite,cube_stack,Single-arm,99.0,,False,99,100,0.413
+Robosuite,cube_restack,Single-arm,100.0,,False,100,100,0.251
+Robosuite,spill_wipe,Single-arm,96.0,,False,96,100,0.001
+Robosuite,nut_assembly,Single-arm,100.0,,False,100,100,0.112
+Robosuite,two_arm_lift,Bimanual,100.0,,False,100,100,0.516
+Robosuite,two_arm_handover,Bimanual,100.0,,False,100,100,0.051

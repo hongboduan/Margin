@@ -1,0 +1,65 @@
+[
+  {
+    "policy": "S",
+    "kept": 0,
+    "probe_episodes": 0,
+    "vlm_calls": 0,
+    "regression_pct": 0.0,
+    "recovery_pct": 0.0,
+    "steps": 648
+  },
+  {
+    "policy": "A0",
+    "kept": 74,
+    "probe_episodes": 0,
+    "vlm_calls": 0,
+    "regression_pct": 0.68,
+    "recovery_pct": 0.89,
+    "steps": 550
+  },
+  {
+    "policy": "A1",
+    "kept": 69,
+    "probe_episodes": 1040,
+    "vlm_calls": 0,
+    "regression_pct": 0.54,
+    "recovery_pct": 0.84,
+    "steps": 554
+  },
+  {
+    "policy": "A1r",
+    "kept": null,
+    "probe_episodes": 1040,
+    "vlm_calls": 0,
+    "regression_pct": 0.59,
+    "recovery_pct": 0.86,
+    "steps": 552
+  },
+  {
+    "policy": "A1all",
+    "kept": 66,
+    "probe_episodes": 2960,
+    "vlm_calls": 0,
+    "regression_pct": 0.43,
+    "recovery_pct": 0.81,
+    "steps": 555
+  },
+  {
+    "policy": "A2",
+    "kept": 71,
+    "probe_episodes": 0,
+    "vlm_calls": 26,
+    "regression_pct": 0.59,
+    "recovery_pct": 0.78,
+    "steps": 553
+  },
+  {
+    "policy": "A3",
+    "kept": 72,
+    "probe_episodes": 200,
+    "vlm_calls": 26,
+    "regression_pct": 0.62,
+    "recovery_pct": 0.89,
+    "steps": 552
+  }
+]
